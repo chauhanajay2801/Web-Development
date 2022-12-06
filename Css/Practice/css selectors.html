@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Selector practics</title>
+    
+    <style>
+     
+      /*  universal selector  */
+      *{
+        background-color: aqua;
+      }
+
+      /* individual selector */
+
+      p{
+        background-color: chartreuse;
+      }
+     
+      /* class and id selector */
+       .bg{
+        background-color: blueviolet;
+       }
+
+       #g{
+        background-color: bisque;
+       }
+
+      /* selector (chained)  */
+
+      
+   /*  combined selector  */
+    
+      /* inside an element */
+   
+      /* direct child */
+    
+
+      /* sibling  ~ or + */
+    
+    </style>
+  </head>
+  <body>
+    <div>Welcome to live class</div>
+    <span>Span is just a span, nothing more</span>
+    <p>We all know paragraph</p>
+    <ul>
+      <li class="bg">item1</li>
+      <li >item2</li>
+      <li >item3</li>
+      <li class ="bg">item4</li>
+      <li id="g">item5</li>
+    </ul>
+
+    <div>
+      <p>lorem</p>
+      <li>awesome</li>
+      <ul>
+        <li>highlight me <a href="#">test</a></li>
+        <li>highlight me</li>
+      </ul>
+    </div>
+
+    <section>
+      <p class="sibling">Test 1</p>
+      <p >Test 2</p>
+      <p>Test 3</p>
+      <p >Test 4</p>
+      <p>Test 5</p>
+    </section>
+  </body>
+</html>
