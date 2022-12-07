@@ -1,0 +1,19 @@
+body{
+    background-color: blueviolet;
+}
+
+.paraz{
+    border: 2px solid red;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    the above three lone nd the code written in one line is the same */
+    padding: 100px;
+    margin: 200px ;
+    height: 500;
+    width: 300;
+    color: chartreuse;
+    text-align: center;
+    text-decoration:line-through
+}
+
