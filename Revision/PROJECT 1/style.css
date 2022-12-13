@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    background:beige;
+    box-sizing: border-box;
+}
+
+nav{
+    padding: 20px 10%;
+    height:15vh;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+nav ul li{
+    list-style: none;
+   margin-right: 5%;
+   font-weight: 500;
+}
+
+/* css for hero section */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.leftmain{
+width:50%
+}
+
+.leftmain h1{
+font-size: 70px;
+}
+
+.leftmain p{
+   margin: 5% 0;
+}
+
+.leftmain button{
+    padding: 15px 20px;
+    border: none;
+    background-color: aqua;
+    border-radius: 8px;
+    color: brown;
+    font-weight: 500;
+
+}
+
+.rightmain{
+width:50%;
+margin-left: 50px;
+}
+
+.rightmain div{
+    margin:10px;
+}
+
+.rightmain div img{
+    margin:10px;
+}
