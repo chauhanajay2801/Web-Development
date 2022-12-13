@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 50px 130px 50px 130px;
+}
+
+.navbar-container{
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 15px;
+
+}
+
+img[alt="brand-logo"]{
+    width: 8rem;
+}
+
+.grow-list{
+    flex-basis: 70%;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.list li{
+    font-size: 16px;
+    list-style: none;
+    color:gray;
+}
+
+.list li:first-child{
+    color:black;
+}
+
+.button-group{
+    position: relative;
+    right: 60px;   
+} 
+
+.nav-button{
+    background-color:#2827CC; 
+    padding: 10px 28px;
+    border: none;
+    border-radius: 12px;
+    color:antiquewhite;
+    font-size: 16px;
+}
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+.banner-container div:first-child{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.heading-text{
+    font-size: 50px;
+    color: #120E43;
+}
+
+.heading-text span{
+    color: #2827CC;
+}
+
+.description{
+    display: inline-block;
+    width: 360px;
+    margin: 2rem 0 2rem;
+    color: #9299a0;
+
+}
+
+.btn{
+    width: max-content;
+    padding: 20px 28px;
+    display: inline-block;
+}
+
+
