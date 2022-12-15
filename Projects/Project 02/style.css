@@ -1,2 +1,5 @@
-/* You can not modify anything in the HTML */
-/* You can only modify the CSS file */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
