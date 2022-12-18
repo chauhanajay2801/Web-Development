@@ -9,54 +9,268 @@
 </head>
 <body>
 
-    <div> 
-
-        <marquee width="60%" direction="right" height="20px">
-            For Educational Purpose
-            </marquee>
-    </div>
-
    
+ <div> 
+          <marquee class="text-2xl bg-green-200 font-medium h-8">For Education Porpose</marquee>
     
-    <nav class = "flex flex-row bg-[#2c2c32] text-[#a8a29e]">
-        <div class = "flex flex-row">
-            <img src="./assets/vslogo.png" width="30em" alt=""> <span class=" text-slate-50">Visual Studio Code</span>
+   
+          <!-- 1st navbar -->
+     <nav class = "flex space-x-20 justify-center bg-[#2c2c32] text-[#a8a29e] sticky top-0">
+        <div class = "flex items-center">
+            <img class="h-8" src="./assets/vslogo.png"  alt=""> 
+            <span class="text-xl text-[#FEFDFC] ml-2 mr-6 font-normal">Visual Studio Code</span></div>
         
-        </div>
-        
-        <div>
-            <ul class="flex flex-row ">
-                <li>Docs</li>
-                <li>Updates</li>
-                <li>Blog</li>
-                <li>API</li>
-                <li>Extensions</li>
-                <li>FAQ</li>
-                <li>Learn</li>
+        <div class="flex items-center">
+            <ul class="flex item-center justify-center">
+                <li class="  mr-4 text-lg font-medium hover:text-[#FFFFFF]">Docs</li>
+                <li class="  mr-4 text-lg font-medium hover:text-[#FFFFFF] ">Updates</li>
+                <li class="  mr-4 text-lg font-medium hover:text-[#FFFFFF] ">Blog</li>
+                <li class="  mr-4 text-lg font-medium hover:text-[#FFFFFF] ">API</li>
+                <li class="  mr-4 text-lg font-medium hover:text-[#FFFFFF] ">Extensions</li>
+                <li class="  mr-4 text-lg font-medium hover:text-[#FFFFFF] ">FAQ</li>
+                <li class="  mr-4 text-lg font-medium hover:text-[#FFFFFF] ">Learn</li>
             </ul>
         </div>
-
-        <div>
-            <img src="https://code.visualstudio.com/assets/icons/search.svg" width="15em" alt="">
+        
+        <div class="flex">
+        <div class="flex item-center">
+            <img class= "h-4 relative left-10 top-[18px]" src="https://code.visualstudio.com/assets/icons/search.svg"  alt="">
+            <input class=" h-12 text-center bg-neutral-700 placeholder:text-[#FFFFFF]  placeholder:text-sm  placeholder:text-thin hover:bg-[#25252B]" 
+            type="text" name="" placeholder="Search Docs" id="">
         </div>
 
-        <div class=" text-slate-50">
-            
-            <button type="submit" class="flex flex-row ">
-                <img src= "https://code.visualstudio.com/assets/icons/download.svg" width="15em">
-                <span>Download</span>
+        <div>
+            <button type="submit" 
+            class="  bg-sky-500 h-12 w-40 flex justify-center items-center space-x-4 hover:bg-sky-700" >
+                <img src= "https://code.visualstudio.com/assets/icons/download.svg" 
+                class=" h-4 font-semibold stroke-[10px] ">
+                <span class=" text-[#FFFFFF] weight:font-bold ">Download</span>
             </button>
-            
+        </div>
         </div>
      </nav>
 
-     <div class=" bg-zinc-900 text-slate-50 text-center">
-        <span class=" text-blue-500 ">Version 1.74</span> is now available! Read about the new features and fixes from November
+     <div class=" bg-zinc-900 text-slate-50 weight:font-medium h-10 flex justify-center items-center">
+        <p><span class=" text-blue-300 hover:underline"> Version 1.74 </span> is now available! Read about the new features and fixes from November</p>
      </div>
     
-     <div></div>
+      <!-- 2nd section the photo and the download button  -->
+     <div class="grid grid-rows-1 grid-cols-2 bg-[#2c2c32]">
+       
+        <div class=" grid-rows-2 py-5 ">
+            <div class=" my-12 ">
+                <div class=" font-thin text-5xl text-[#FFFFFF] flex justify-center"> Code editing.</div>
+                <div class=" text-5xl text-[#FFFFFF] flex justify-center">Redefined.</div>
+                <div class=" text-lg text-slate-500  flex justify-center">Free. Built on open source. Runs everywhere.</div>
+            </div>
 
+            <div class="   ">
+               <button type="submit" class = "bg-orange-500 flex justify-center" >Download Mac Universal 
+                <p>Stable Build</p> </button>
+               <button class="bg-orange-500">ok</button>
+            </div>
+
+            <div>
+                <a href="#" >Web,Insiders edition, </a>
+                <span>or</span>
+                <a href="#">other platforms</a>
+            </div>
+
+           <p>By using VS Code,you agree to its</p>
+           <p>license and privacy statement.</p>
+
+        </div>
+
+
+          <div class=" pt-10 pr-20  ">
+            <img src="./assets/codeimg.PNG" alt="">
+           </div>
+           
+           
+           <div class=" ... bg-zinc-900">01</div>
+           </div>
+     
+  <div class=" flex flex-row ">
+        <ul class=" flex flex-row " >
+            <li> <img src="./assets/IntelliSense.PNG" alt="">IntelliSense</li>
+            <li> <img src="./assets/debug.PNG" alt=""> Run and Debug </li>
+            <li> <img src="./assets/git.PNG" alt=""> Built-in Git </li>
+            <li> <img src="./assets/extension.PNG" alt=""> Extensions </li>
+        </ul>
+    </div>
+
+    <div class=" flex flex-row ">
+        <ul class=" flex flex-row " >
+            <li> <img src="./assets/face1.jpg" alt="">  </li>
+            <li> <img src="./assets/face2.jpg" alt="">  </li>
+            <li> <img src="./assets/face3.jpg" alt="">  </li>
+        </ul>
+    </div>
+
+    <div class=" grid grid-rows-1 grid-cols-2 ">
+    <div class=" ">
+        <img src="./assets/img1.PNG" alt="">
+    </div>
+    <div class=" ">2</div>
+    </div>
+  
+   
+    <div class=" grid grid-rows-1 grid-cols-2 ">
+    <div class=" ">2</div>
+    <div class=" ">
+        <img src="./assets/img-2.PNG" alt="">
+    </div>
+    </div>
     
+        
 
+  
+    <div class=" grid grid-rows-1 grid-cols-2 ">
+    <div class=" ">
+        <img src="./assets/img-3.PNG" alt="">
+    </div>
+    <div class=" ">2</div>
+    </div>
+  
+    <div class=" grid grid-rows-1 grid-cols-2 ">
+   <div class=" ">2</div>
+   <div class=" ">
+    <img src="./assets/img-4.PNG" alt="">
+    </div>   
+     </div>
+  
+    <div class=" grid grid-rows-1 grid-cols-2 ">
+    <div class=" ">
+        <img src="./assets/img-5.PNG" alt="">
+    </div>
+    <div class=" ">2</div>
+    </div>
+
+
+<div>
+    <div>VS Code for</div>
+
+    <div>
+        <ul class="flex flex-row ">
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>Markdown</li>
+            <li>TypeScript</li>
+            <li>C/C++</li>
+        </ul>
+    </div>
+
+    <div>
+        <ul class="flex flex-row ">
+            <li>JSON</li>
+            <li>Powershell</li>
+            <li>HTML/CSS</li>
+            <li>C#</li>
+            <li>PHP</li>
+            <li>YAML</li>
+        </ul>
+    </div>
+
+    <div>and many more languages on the Marketplace</div>
+
+     <div>
+        <a href="#" >Get Started Now</a>
+     </div>
+
+</div>
+
+      <div>
+
+        <div  class = "grid grid-rows-1 grid grid-cols-3">
+            <div class="grid-rows-3">
+                <div class="  "> <img src="./assets/window.jpg" alt=""> </div>
+                <div> <a href="#"> <img src="./assets/download.png" alt=""> Windows </a> </div>
+                <div>
+
+                     <div> User Installer </div>
+                     <div>System Installer</div>
+                     <div>.zip</div>
+                     <div>CLI</div>
+
+                </div>
+            </div>
+
+            <div class="grid-rows-3">
+                
+                <div> <img src="./assets/linux.jpg" alt=""> </div>
+                
+                <div>
+                    <div> <a href="">.deb</a> <a href="">.rpm</a></div>
+                </div>
+                
+                <div>
+
+                    <div> .deb </div>
+                    <div> .rpm </div>
+                    <div> .tar.gz </div>
+                    <div> Snap </div>
+                    <div>CLI</div>  
+
+                </div>
+            </div>
+
+            <div class="grid-rows-3">
+                <div> <img src="./assets/apple.png" alt=""> </div>
+                
+                <div>
+                    <div> <a href="">Mac</a> </div>
+                </div>
+
+                <div>
+
+                      <div> .zip </div>
+                      <div> CLI </div>
+
+                </div>
+            </div>
+           
+        </div>
+
+      </div>
+
+      <div class=" grid grid-rows-1  grid-cols-2 ">
+
+            <div>
+                Want new features sooner?
+                Get the Insiders build instead.
+            </div>
+
+            <div>
+                Use vscode.dev for quick edits
+                       online!
+                GitHub, Azure Repos, and local files.
+            </div>
+
+      </div>
+
+      <div>
+              
+              <div>LICENSE AND PRIVACY TERMS</div>
+              <div>By downloading and using Visual Studio Code, you agree to the <span>license terms</span> and <span>privacy statement.</span></div>
+              <div>VS Code automatically sends telemetry data and crash dumps to help us improve the product. If you</div>
+              <div>would prefer not to have this data sent please go see <span>How to Disable Crashing Reporting</span> to learn how to </div>
+              <div>disable it</div>
+      </div>
+
+
+      <div class=" grid grid-rows-2  grid-cols-1 ">
+
+        <div class=" grid-cols-2 ">
+            <div>Hello from Seattle. <span>Follow @code</span> <span></span></div>
+
+            <div> Support Privacy Terms of Use License</div>
+            
+        </div>
+
+        <div>Microsoft @ 2022 Microsoft</div> 
+
+      </div> 
+    </div>
 </body>
 </html>
