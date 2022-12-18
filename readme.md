@@ -2,7 +2,7 @@
 
 ## Html and Css Project
 **Project 1**
-[Sol](./Projects/Project%2001/)
+[Sol](./Projects/Project%2001/readme.md)
 
 **Project 2**
 [Sol](./Projects/Project%2002/)
