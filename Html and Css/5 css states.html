@@ -17,20 +17,90 @@
 }
 
 
-#three{
-        position: fixed;
+#one{
+        position: static;
         }
+
+        
+#three{
+        position: relative;
+        left: 30px;
+        top: 100px;
+        }
+
+        .containerr {
+            background-color: pink;
+            margin-top: 20%;
+            height: 100px;
+            width: 200px;
+            
+            
+        }
+        .sticky-container {
+            margin-top: 10px;
+            background-color: antiquewhite;
+            position: sticky;
+            top: 2px;
+            font-size: 50px;
+            
+        }
+       
+        
+
+        .fixed {
+            background-color: rgb(112, 7, 24);
+            margin-top: 40px;
+            height: 50px;
+            width: 200px;
+            margin-left: 1100px;
+            position: fixed;
+            font-size: 20px;
+            color: antiquewhite;
+            
+        }
+
+        #e{
+            color: blue;
+            
+        }
+
+        #absolute{
+            position: absolute;
+            top: 50px;
+            left: 20px;
+            background-color: yellowgreen;
+            text-align: center;
+            font-size: 20px;
+        }
+
+       
+
 
 </style>
 
 </head>
 <body>
     <div class="container">
-       <div class="pos">one</div>    
+       <div class="pos" id="one">static</div>    
        <div class="pos">two</div>    
-       <div class="pos" id="three">three</div>
-       <div class="pos">Four</div>  
-         
-    </div> 
-    </body>
+       <div class="pos" id="three">absolute</div>
+       <div class="pos" id="absolute">Four</div>  
+    </div>
+    
+    <div class="containerr">
+        <div class="sticky-container">sticky</div>
+        <div>Absolute</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    </div>
+    
+
+   
+        <div class="fixed">
+            <span id="e" >fixed</span> 
+            Lorem ipsum dolor sit amet.
+        </div>
+    
+
+</body>
 </html>
+
