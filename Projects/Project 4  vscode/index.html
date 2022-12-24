@@ -11,11 +11,11 @@
 
    
 <div> 
-        <marquee class="text-2xl bg-green-200 font-medium h-8">For Education Porpose</marquee>
+        <marquee class="text-2xl bg-green-200 font-medium h-8 sticky top-0">For Education Porpose</marquee>
     
    
           <!-- 1st navbar -->
-        <nav class = "flex space-x-20 justify-center bg-[#2c2c32] text-[#a8a29e] sticky top-0">
+        <nav class = "flex space-x-20 justify-center bg-[#2c2c32] text-[#a8a29e] sticky top-8">
            <div class = "flex items-center">
              <img class="h-8" src="./assets/vslogo.png"  alt=""> 
              <span class="text-xl text-[#FEFDFC] ml-2 mr-6 font-normal">Visual Studio Code</span>
@@ -375,44 +375,77 @@
               </div>
          
               
-              <div class=" pl-14 pt-14 ">
-                <div class=" mr-25 "><img src="https://code.visualstudio.com/assets/images/apple-logo.svg"  class="  h-[100px] " alt="">
-                  <button class="bg-[#005BA4] h-16 w-[220px]   mt-6 pl-8 pt-2"> 
-                    <span class="text-[#ffffff] flex text-lg font-bold"> <img class="h-6 pr-4 "  src="https://code.visualstudio.com/assets/icons/download.svg" alt=""> Mac</span>
-                    <small class="text-[#ffffff] pr-10 pt-[-1]">macOS 10.11+</small>
-                  </button>
+              <div class="pt-14">
+                <div>
+                    <img class="h-[100px] pl-40 " src="https://code.visualstudio.com/assets/images/apple-logo.svg"
+                        alt="">
+                    <button class="bg-[#005BA4] h-16 w-[220px] mt-4"> <span
+                            class="text-[#ffffff] pl-4 text-lg  font-medium align-middle flex justify-center items-center"><img
+                                src="	https://code.visualstudio.com/assets/icons/download.svg" alt=""
+                                class="h-4 pr-4">Mac</span>
+                        <small class="text-[#ffffff]">macOS 10,11+</small>
+                    </button>
+                    <p class="pl-4 pt-4 decoration-gray-300 font-medium"> .zip <small
+                            class="bg-[#005BA4] mr-1 text-[#ffffff] font-light pl-1 pr-1 text-xs">Intel chip</small><small
+                            class="bg-[#005BA4] mr-1 text-[#ffffff] font-light pl-1 pr-1">Apple silicon</small><small
+                            class="bg-[#005BA4] mr-1 text-[#ffffff] font-light pl-1 pr-1">Universal</small></p>
+                    <p class=" pt-1 decoration-gray-300 font-medium mr-15">CLI <small
+                            class="bg-[#005BA4] mr-1 text-[#ffffff] font-light pl-1 pr-1">Intelchip</small><small
+                            class="bg-[#005BA4] mr-1 text-[#ffffff] font-light pl-1 pr-1">Apple silicon</small><small></small></p>
+
                 </div>
-                  <div class=" flex mt-4 ">
-                      <p class="  ">.zip</p>
-                      <div class="flex ml-6 ">
-                      <small class=" text-white bg-[#005BA4] ml-2 ">Intel chip</small>
-                      <small class=" text-white bg-[#005BA4]  ml-1">Apple Silicon</small>
-                      <small class=" text-white bg-[#005BA4] ml-1">Universal</small>
-                    </div>
-                    </div>
-                  <div class=" flex mt-2">
-                      <p class="  ">CLI</p>
-                      <div class="flex ml-1 ">
-                        <small class=" text-white bg-[#005BA4] ml-2 ">Intel Chip</small>
-                        <small class=" text-white bg-[#005BA4]  ml-1">Apple Silicon</small>
-                        
-                      </div>
-                  </div>
-               </div>
             </div>
 
           </div>
             </body>
             
             <!-- 8th section-- new feature and privacy terms -->
-
+            <main class=" bg-zinc-100 h-[350px] text-[#444] ">
+               <div class = "grid grid-cols-2 h-[180px]">
+                  <div class=" mt-10 text-center ">
+                   <p class=" text-2xl font-semibold  ">Want new features sooner?</p>
+                   <p class=" text-lg mt-2   ">Get the <span class=" text-sky-500 hover:underline " >Insiders build</span> instead.</p>
+                  </div>
+                  <div class=" mt-10 text-center ">
+                  <p class=" text-2xl font-semibold  ">Use <span class=" text-sky-500 hover:underline "> vscode.dev</span> for quick edits </p>
+                  <p class=" text-2xl font-semibold  ">online!</p>
+                  <p class=" text-lg mt-2   "> GitHub, Azure Repos, and local files.</p>
+                  </div>
+                </div>
+              
+              <div class=" text-center text-[#444] text-sm ">
+                <p class=" mt-4 font-semibold ">LICENSE AND PRIVACY TERMS</p>
+                <p class=" mt-3 ">By downloading and using Visual Studio Code, you agree to the <span class=" text-sky-500 hover:underline ">license terms</span> and <span class=" text-sky-500 hover:underline ">privacy statement.</span> </p>
+                <p class=" mt-3 ">VS Code automatically sends telemetry data and crash dumps to help us improve the product.</p>
+                <p class=" mt-3 ">If you would prefer not to have this data sent please go see <span class=" text-sky-500 hover:underline ">How to Disable Crash Reporting </span>to learn how to disable it.</p>
+              </div>
+            </main>
           
             
             <!-- 9th section-- last grey strip -->
-            
-            
+            <main class=" h-[80px] bg-[#333] grid grid-cols-2">
+              <div class=" flex space-x-4 mt-5 justify-center " >
+                <p class = "text-[#ffffff] text-xs">Hello from Seattle.</p>
+                <p class = "text-[#ffffff] text-xs"> Follow @code</p>
+                <p class="flex bg-[#F5F5F5] pl-1 pr-1 font-light rounded h-6 justify-center items-center space-x-1">
+                  <img src="./assets/github.png" class="h-4" alt="">
+                  <small class=""><span class="font-medium 
+                  text-center"> star</span> </small>
+                </p>
+                <small class="bg-[#F5F5F5] h-6 pl-1 pr-1"><span class="font-medium ">145,345</span> </small>
+              </div>
 
-   
-    
+              <div class=" flex  space-x-4 mt-5 justify-center">
+                <p class = "text-[#ffffff] text-xs">Support</p>
+                <p class = "text-[#ffffff] text-xs">Privacy</p>
+                <p class = "text-[#ffffff] text-xs">Term of use</p>
+                <p class = "text-[#ffffff] text-xs">License</p>
+                <p>
+                  <img src="https://code.visualstudio.com/assets/images/microsoft-logo.png" alt=""
+                      class="h-4"><span class="text-[#ffffff] text-xs"> © 2022 Microsoft</span>
+                </p>
+              </div>
+             </main>
+          
 </body>
 </html>
