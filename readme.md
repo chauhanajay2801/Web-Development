@@ -7,11 +7,6 @@
 **Project 1** <br/>
 [Check Here](./Projects/Project%2001/readme.md)
 
-**Project 2** <br/>
-[Check Here](./Projects/Project%2002/)
-
-**Project 3** <br/>
-[Check Here](./Projects/Project%2003/)
 
 ## Tailwind Project
 
