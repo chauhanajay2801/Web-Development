@@ -30,7 +30,27 @@
 //         console.log("I am no one")
 // }
 
-// Ternary Operator/condition
-let ajay = false;
 
-ajay ? console.log("It is raining") : console.log("It is not raining")
+let user = "0"; // strict comparison need the operand of the same types
+
+switch(user){
+    case 0: // wont take because it is string and the case is a number datatype
+        console.log("Redirect to the admin page")
+        break;
+    case 1:
+        console.log("Redirect to the student page")
+        break;
+    case 2:
+        console.log("Redirect to the visitor page")
+        break;
+    default:
+        console.log("I am no one")
+}
+
+
+
+// Ternary Operator/condition
+// let ajay = false;
+
+// ajay ? console.log("It is raining") : console.log("It is not raining")
+

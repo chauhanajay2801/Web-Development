@@ -99,7 +99,10 @@
 // let str1 = "the main reason of enjoying The small steps"
 // console.log(str1.search("e"));
 
-let str1 = "the main reason of enjoying The small steps"
-console.log(str1.search("e"));
+// let str1 = "the main reason of enjoying The small steps"
+// console.log(str1.includes("re",9));
 
 
+// let str1 = "keep it simple";
+// console.log(str1.startsWith("keep"));
+// console.log(str1.startsWith("keep",2));
