@@ -1,2 +1,66 @@
-/* You can not modify anything from the HTML file */
-/* You can only modify the CSS file */
+*{
+    margin: 15px;
+    font-family: myFirstFont;
+}
+
+.navbar-container{
+    display: flex;
+    gap: 100px;
+}
+
+.navbar-container>div>img{
+    height: 35px;
+    width: 100px;
+}
+
+.list{
+display: flex;
+list-style: none;
+font-size:20px;
+font-weight: 900;
+justify-content: space-around;
+gap: 30px;
+}
+
+ul :first-child{
+    text-decoration:underline;
+}
+
+.button-group{
+    display: flex;
+    
+}
+
+.nav-button{
+    background-color: transparent;
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+    justify-content: flex-end;
+    font-size: large;
+}
+
+.search-icon{
+    height: 4px;
+    width: 12px; 
+}
+
+.square{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    top: 150px;
+    left: 10px;
+}
+
+
+
+div.hero-container>div>img{
+    height: 450px;
+    width: 350px;
+    position: absolute ;
+    top: 200px;
+    left: 80px;
+
+} 
+
