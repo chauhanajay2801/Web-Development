@@ -106,3 +106,37 @@
 // let str1 = "keep it simple";
 // console.log(str1.startsWith("keep"));
 // console.log(str1.startsWith("keep",2));
+
+
+// let st1 = "Dont forget to smile today";
+// const regex = /Dont/i;
+
+// let st1_part = st1.replace(regex,"do");
+// console.log(st1_part); 
+
+
+///codePointAt()
+// let str1 = "Dont forget to smile today";
+// console.log(str1.codePointAt(3));
+
+
+
+// console.log(String.fromCharCode(4));
+
+// let a = 2;
+// let b = "2";
+
+// console.log(a===b);
+
+
+//match and match all
+
+const paragraph = 'The quick brown fox jumps over the lazy dog. It barked.';
+const regex = /[a-z]/i;
+const rege = /[a-z]/g;
+
+const found = paragraph.match(regex);
+const found1 = paragraph.matchAll(rege);
+console.log(found);
+console.log(found1);
+

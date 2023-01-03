@@ -1,0 +1,8 @@
+{
+
+    "Name" : "Ajay",
+    "Score" : 12,
+    "isadmin" : false,
+    "license" : null,
+    "shopitem" : ["Candy","Cake","Buns",{"Ajay":true}]
+}
