@@ -12,8 +12,13 @@
 
 ## Positions in CSS
 [click here](https://ajaychauhan.hashnode.dev/positions-in-css-1)<br/>
+
 ## Javascript variables and their scope
 [click here](https://ajaychauhan.hashnode.dev/javascript-variable-and-their-scope)<br/>
+
 ## Array and all its methods in Javascript
 [click here](https://ajaychauhan.hashnode.dev/array-and-all-its-methods-in-javascript)<br/>
+
+## String and all its methods in Javascript
+[click here](https://ajaychauhan.hashnode.dev/string-and-its-methods-in-javascript)<br/>
 

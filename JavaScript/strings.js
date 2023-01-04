@@ -129,14 +129,46 @@
 // console.log(a===b);
 
 
+
+//Local compare
+
+// let t1 = "you have to beleive the power of compound effect";
+// let t2 = "have";
+// let t3 = "you have to beleive the power of compound effect";
+
+// let result = t1.localeCompare(t2);
+// let result1 = t1.localeCompare(t3);
+// console.log(result);
+// console.log(result1);
+
+//normalize
+
+// var f  = '\u0041\u006d\u00e9\u006c\u0069\u0065';
+// let b = f.normalize('NFC')
+// console.log(b);
+
+//raw
+// let filePath = String.raw`C:\Development\fsjs2\strings`;
+
+// console.log(`The file was uploaded from: ${filePath}`);
+
+// let text = "It is a whole new day";
+// let result = text.repeat(4);
+// console.log(result);
+
+//local upper and local lower case
+// let firstst = "once in a lifetime";
+// let secondst = "Hello World!";
+// let result = firstst.toLocaleUpperCase();
+// let result1 = secondst.toLocaleLowerCase();
+// console.log(result);
+// console.log(result1);
+
+
 //match and match all
 
-const paragraph = 'The quick brown fox jumps over the lazy dog. It barked.';
-const regex = /[a-z]/i;
-const rege = /[a-z]/g;
+// const paragraph = 'We all grow at a different pace and thats totally ok';
+// const regex = /[x-z]/i;
 
-const found = paragraph.match(regex);
-const found1 = paragraph.matchAll(rege);
-console.log(found);
-console.log(found1);
-
+// const dekho = paragraph.match(regex);
+// console.log(dekho);
