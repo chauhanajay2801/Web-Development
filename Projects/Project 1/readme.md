@@ -6,4 +6,4 @@
 ![App Screenshot](./seo.png)
 
 # Preview of website -------click below 
-[Preview the website](https://seo-masterr.netlify.app/)
+[Preview the website(click here)](https://seo-masterr.netlify.app/)
