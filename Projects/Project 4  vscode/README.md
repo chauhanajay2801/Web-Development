@@ -8,7 +8,7 @@ It used many different images flexbox, grid and different css properties.
 
 ## Screenshots
 
-![App Screenshot](./vsc.png)
+![App Screenshot](./vs.png)
 
-#Preview of website -------click below 
+# Preview of website -------click below 
 [Preview the website](https://vscodecloneforlearning.netlify.app/)
