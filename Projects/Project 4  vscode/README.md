@@ -10,5 +10,5 @@ It used many different images flexbox, grid and different css properties.
 
 ![App Screenshot](./vsc.png)
 
-
-[Preview](https://vscodecloneforlearning.netlify.app/)
+#Preview of website -------click below 
+[Preview the website](https://vscodecloneforlearning.netlify.app/)
