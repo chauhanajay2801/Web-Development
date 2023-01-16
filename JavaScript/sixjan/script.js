@@ -1,1 +1,0 @@
-let myHeroes = ["Thor","Hulk","Batman","Superman"]
