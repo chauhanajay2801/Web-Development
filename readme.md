@@ -10,6 +10,9 @@
 **Project 2** <br/>
 [Check Here](./Projects/Project%202/readme.md)
 
+**Project 3** <br/>
+[Check Here](./Projects/Project%203/readme.md)
+
 ## Tailwind Project
 
 **Project 4**<br/>
