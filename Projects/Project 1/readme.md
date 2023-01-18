@@ -1,5 +1,5 @@
 # Working of project 1
-### This is project used html and css and in css it uses flex 
+### This project used html and css and in css it uses flex 
 
 ## Screenshots
 

@@ -1,66 +1,281 @@
-*{
-    margin: 15px;
-    font-family: myFirstFont;
-}
-
-.navbar-container{
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container{
+    width:100vw;
+    max-width:1440px;
+    margin:0px auto;
+  }
+  
+  .navbar-container {
+    height: 15vh;
+    width: 100%;
     display: flex;
-    gap: 100px;
-}
-
-.navbar-container>div>img{
-    height: 35px;
-    width: 100px;
-}
-
-.list{
-display: flex;
-list-style: none;
-font-size:20px;
-font-weight: 900;
-justify-content: space-around;
-gap: 30px;
-}
-
-ul :first-child{
-    text-decoration:underline;
-}
-
-.button-group{
-    display: flex;
-    
-}
-
-.nav-button{
-    background-color: transparent;
-    height: 40px;
-    width: 120px;
-    border-radius: 8px;
-    justify-content: flex-end;
-    font-size: large;
-}
-
-.search-icon{
-    height: 4px;
-    width: 12px; 
-}
-
-.square{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
     position: relative;
-    height: 40px;
-    width: 40px;
-    top: 150px;
-    left: 10px;
-}
-
-
-
-div.hero-container>div>img{
-    height: 450px;
-    width: 350px;
-    position: absolute ;
-    top: 200px;
-    left: 80px;
-
-} 
-
+  }
+  
+  .navbar-container .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style-type: none;
+    /* border: 1px solid green; */
+    width: 450px;
+    font-family: "Orbitron";
+    font-style: normal;
+    font-weight: 550;
+  }
+  
+  .navbar-container .list > :first-child {
+    font-size: 1.3rem;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    order: 0;
+  }
+  
+  .navbar-container .list > :nth-child(2) {
+    order: 1;
+  }
+  
+  .navbar-container .list > :nth-child(3) {
+    order: 0;
+  }
+  
+  .navbar-container .list > :nth-child(4) {
+    order: 1;
+  }
+  
+  .navbar-container .list > :nth-child(5) {
+    order: 1;
+  }
+  
+  .navbar-container .list > :first-child::after {
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    border-bottom: 2px solid #0e0d0d;
+    /* top: 54px; */
+    /* left: 468px; */
+    top: 10px;
+    right: 55px;
+  }
+  
+  .navbar-container > div > img {
+    height: 35px;
+    position: relative;
+    left: 100px;
+  }
+  
+  .button-group {
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    right: 110px;
+    width: 200px;
+  }
+  
+  .button-group .search-icon svg {
+    height: 22px;
+    margin: 0px 7px;
+  }
+  
+  .button-group .nav-button {
+    height: 35px;
+    width: 130px;
+    border: 2px solid black;
+    background-color: #fffbfb;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 480;
+    font-size: 1.04rem;
+    padding: 2px 0px;
+    border-radius: 10px;
+    color: #757373;
+  }
+  
+  .hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 520px;
+    position: relative;
+  }
+  
+  .hero-container > .square {
+    align-self: center;
+    position: absolute;
+    left: 239px;
+    bottom: 2px;
+  }
+  
+  .hero-container > .square > img {
+    height: 250px;
+  }
+  
+  .hero-container > :nth-child(2) {
+    order: 1;
+    position: absolute;
+    left:560px;
+    bottom:30px;
+    
+    
+    
+  }
+  
+  .hero-container> :nth-child(2) > img {
+    height: 35px;
+  
+  }
+  
+  .hero-container >:nth-child(3) {
+    order: 3;
+    position:absolute;
+    top: 52px;
+    right: 246px
+  
+  
+  }
+  
+  .hero-container >:nth-child(3) > img {
+    height: 50px;
+    position: absolute;
+    
+  
+  }
+  
+  .hero-container > .globe {
+    order: 2;
+    position: absolute;
+    top:0px;
+    left:770px;
+  
+  }
+  
+  .hero-container > .globe > img {
+    height: 60px;
+    
+  }
+  
+  .hero-container> :nth-child(5) {
+    order:0;
+    align-self: center;
+    position: absolute;
+    left:92px;
+    z-index: 1;
+  }
+  
+  .hero-container >:nth-child(5) > img {
+    height: 420px;
+   
+  }
+  
+  .hero-container >:nth-child(6) {
+    order: 1;
+    position: absolute;
+    right: 202px;
+    top: 111px;
+  
+    
+    
+  }
+  
+  .hero-container .hero-container-right { 
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rgb(206, 2, 2); */
+    justify-content: space-between;
+    align-items: center;
+    height: 380px;
+    width:650px
+  }
+  
+  .hero-container-right :nth-child(n) {
+    order: 0;
+  }
+  
+  .hero-heading {
+    font-size: 3rem;
+    font-family: "Orbitron";
+    font-style: normal;
+  }
+  .hero-description {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #363636;
+    padding: 0px 40px;
+  }
+  
+  .button-email {
+    height: 25px;
+    width: 160px;
+    font-weight: bold;
+    font-size: 1.03rem;
+    border: 1px solid rgb(54, 54, 54);
+    background-color: #fffbfb;
+    border-radius: 7px;
+    color: #757373;
+    font-family: "Orbitron";
+    font-style: normal;
+    display: inline-block;
+    margin: 0px 8px;
+  }
+  .button-join {
+    height: 25px;
+    width: 107px;
+    font-weight: 500;
+    font-size: 1.03rem;
+    font-family: "Orbitron";
+    font-style: normal;
+    color: #ffffff;
+    background-color: #0c0c0c;
+    border-radius: 7px;
+  }
+  
+  .hero-container-right > :nth-child(4){
+   /* border:3px solid rgba(126, 7, 27, 0.514); */
+   display: flex;
+   flex-direction: column;
+   width:200px;
+   justify-content: space-between;
+   align-items: center;
+   height:68px;
+  
+  }
+  .contact-heading{
+    color:#5f5e5e;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 480;
+  }
+  
+  .icons {
+    display: flex;
+    /* border: 2px solid purple; */
+    width: 160px;
+    justify-content: space-between;
+  }
+  .icons > span {
+    display: inline-block;
+    height: 30px;
+    width: 28px;
+  }
+  .icons > span > img {
+    display: inline-block;
+    /* border:2px solid green; */
+    height: 30px;
+    width: 28px;
+  }
