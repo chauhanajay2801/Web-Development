@@ -1,6 +1,6 @@
 # Working of project 3
 
-### The second project uses the plain css and uses flexbox and classes
+### The third project uses the plain css and uses flexbox and classes
 
 ## Screenshots
 
