@@ -20,4 +20,4 @@
 ## React Project
 
 **Project 5**<br/>
-[Check Here](master/React/firstapp#readme)
+[Check Here](./React/firstapp#readme)
