@@ -9,11 +9,5 @@
 6. Provides the average reading time  
 7. Giving the information about the characters and the words 
 8. Dark mode which can turn the app into dark or light mode
-
-## Screenshots
-
-![App Screenshot Light](./preview.png)
-![App Screenshot Dark](./preview2.png)
-
 # Preview of website -------click below 
 [Preview the website(click here)](https://textutilityapp1.netlify.app/)
