@@ -1,8 +1,7 @@
-import { getByTitle } from '@testing-library/react'
-import React, { Component } from 'react'
-
-export class NewsItem extends Component {
-  articles= [
+{
+  "status": "ok",
+  "totalResults": 10,
+  "articles": [
     {
       "source": { "id": "bbc-news", "name": "BBC News" },
       "author": "BBC News",
@@ -103,33 +102,5 @@ export class NewsItem extends Component {
       "publishedAt": "2023-01-26T18:07:21.8035553Z",
       "content": "Starting at a new school this year, 15-year-old Sergio Peralta had all the typical teenage reasons to be nervous. \r\nHe was also trying to keep a secret: a hand that was not fully formed.\r\n\"In the fir… [+1731 chars]"
     }
-]
-  constructor(){
-    super();
-    console.log("nes comp constructor");
-    this.state={
-      articles:this.articles,
-      loading: false
-      
-    }
-  }
-
-  render() {
-    let {title,description,imageUrl,newsUrl} = this.props;
-
-    return (
-      <div className='my-3'>
-        <div className="card" style= {{width: "18rem"}}>
-          <img src={imageUrl} className="card-img-top" alt="..."/>
-          <div className="card-body">
-            <h5 className="card-title">{title}</h5>
-            <p className="card-text">{description}</p>
-            <a href="/newdetails/" className="btn btn-sm btn-primary">Read More</a>
-          </div>
-        </div>
-      </div>
-    )
-  }
+  ]
 }
-
-export default NewsItem
