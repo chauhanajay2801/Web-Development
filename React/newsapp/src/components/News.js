@@ -16,8 +16,6 @@ export class News extends Component {
           <div className="col-md-4">
         <NewsItem title ="mtTitle" description= "mydesc"/>
         </div>
-     
-        
         </div>
       </div>
     )
