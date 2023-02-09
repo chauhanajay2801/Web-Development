@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listener</title>
+</head>
+<body>
+
+    <h1>Learning the event listeners</h1>
+    <p id="js">Event Listener</p>
+
+    <script>
+        // document.addEventListener("Event",whom should i call)
+        document.addEventListener("dblclick",helloo)
+
+        function helloo(){
+            document.getElementById("js").innerText = "Mouse"
+        }
+
+        document.addEventListener("mouseenter",hello)
+
+        function hello(){
+            document.getElementById("js").innerText = "Hello mouse enetered"
+        }
+
+    </script>
+
+
+ <!-- 
+    click
+    dbl click
+    mouse enter
+  -->
+</body>
+</html>
