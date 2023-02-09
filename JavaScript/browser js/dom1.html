@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hi this is for the practice of dom and it is starting from today</h1>
+    <p class = "fsjs" id = "fsjs2">Hey now there is a list</p>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+    </ul>
+
+    <ul>
+        <li class="Tech">Js</li>
+        <li class="Tech">React</li>
+        <li class="Tech">Node</li>
+        <li class="Tech">Mongo db</li>
+        <li class="Tech">Express.js</li>
+    </ul>
+    <script>
+        // console.log(document)
+        // console.log(document.head)
+        // console.log(document.body.firstElementChild)
+        // console.log(val.innerText)
+        let val = document.getElementsByClassName("Tech")
+        console.log(val)
+        console.log(val[0].innerText)
+        val[0].innerText = "Python"
+        
+        
+        // Query Selector
+        // let h1 = document.querySelector("h1").innerHTML
+        // console.log(h1)
+
+        let first = document.querySelector("#fsjs2").innerText
+        console.log(first)
+       
+        let second = document.querySelector("p").style.backgroundColor = "red"
+        
+
+
+
+
+
+    </script>
+</body>
+</html>

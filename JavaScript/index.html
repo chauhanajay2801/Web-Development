@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript Bootcamp</h1>
+    <ul>
+
+    </ul>
+    <button onclick="maths()" id="butt">Submit</button>
+    <p id = "para"></p>
+    <script>
+        const list = `
+        <li>Ajay</li>
+        <li>Pritam</li>
+        <li>Locha</li>
+        `;
+
+        const ab = document.querySelector("ul")
+        ab.innerHTML = list;
+
+
+        //create element on screen
+        let title = document.createElement("h1")
+        title.className = "title";
+        title.style.fontSize = "25px";
+        title.style.color = "green";
+        title.textContent = "Creating new elemet in dom day 2"
+        // console.log(title)
+        document.body.appendChild(title)
+
+        for (let i=0; i<3; i++){
+            let pra = document.createElement("p")
+            pra.className = "FSJS";
+            pra.style.fontSize = "16px"
+            pra.style.color = "green"
+            console.log(pra)
+            
+            pra.textContent = i
+            document.body.appendChild(pra)
+        }
+
+        
+        function maths(){
+            let vall = prompt("Solve this 80+9");
+            if (vall == 89){
+                document.getElementById("para").innerText = "Success Redirect";
+                document.getElementById("butt").style.backgroundColor = "green";
+            }
+            else{
+                document.getElementById("para").innerText = "Wrong Answer please try again";
+                document.getElementById("butt").style.backgroundColor = "red";
+            }
+        }
+
+    </script>
+    
+</body>
+</html>
