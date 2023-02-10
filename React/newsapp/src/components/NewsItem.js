@@ -104,18 +104,10 @@ export class NewsItem extends Component {
       "content": "Starting at a new school this year, 15-year-old Sergio Peralta had all the typical teenage reasons to be nervous. \r\nHe was also trying to keep a secret: a hand that was not fully formed.\r\n\"In the fir… [+1731 chars]"
     }
 ]
-  constructor(){
-    super();
-    console.log("nes comp constructor");
-    this.state={
-      articles:this.articles,
-      loading: false
-      
-    }
-  }
+ 
 
   render() {
-    let {title,description,imageUrl,newsUrl} = this.props;
+    let {title,description,imageUrl} = this.props;
 
     return (
       <div className='container my-3'>
