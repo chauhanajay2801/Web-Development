@@ -107,16 +107,16 @@ export class NewsItem extends Component {
  
 
   render() {
-    let {title,description,imageUrl} = this.props;
+    let {title,description,imageUrl, newsUrl} = this.props;
 
     return (
       <div className='container my-3'>
         <div className="card" style= {{width: "18rem"}}>
-          <img src={imageUrl} className="card-img-top" alt="..."/>
+          <img src={!imageUrl?"https://s.yimg.com/ny/api/res/1.2/J_fiYIwEufe8o5r9lrAuTA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/bloomberg_markets_842/538262abed1c064dea2b6742a496381d":imageUrl} className="card-img-top" alt="..."/>
           <div className="card-body">
             <h5 className="card-title">{title}</h5>
             <p className="card-text">{description}</p>
-            <a href="/newdetails/c." className="btn btn-sm btn-primary">Read More</a>
+            <a href= {newsUrl} target="_blank" className="btn btn-sm btn-primary">Read More</a>
           </div>
         </div>
       </div>
