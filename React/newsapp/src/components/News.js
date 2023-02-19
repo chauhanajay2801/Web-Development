@@ -218,19 +218,14 @@ export class News extends Component {
       <div className = "container my-3">
         <h2>NewsBaba - Top Headlines</h2>
         <div className="row">
-            <div className="col-md-4">
-            <NewsItem title = "my title" description = "mydesc" imageUrl = "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YRIXO4K5WA6KSXGBNLEH57XI6E.jpg&w=1440" newsUrl = "TODO" />
+        {this.state.articles.map((element)=>{
+           return <div className="col-md-4" key={element.url}>
+            <NewsItem  title = {element.title} description = {element.description} imageUrl = {element.urlToImage} newsUrl = {element.url} />
             </div>
-            <div className="col-md-4">
-            <NewsItem title = "my title" description = "mydesc"/>
-            </div>
-            <div className="col-md-4">
-            <NewsItem title = "my title" description = "mydesc"/>
-            </div>
-         </div>
+        })}
+        </div>
     
     </div>
-      
     )
   }
 }
