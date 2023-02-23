@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Greet from './components/Greer';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
 
 
 
 function App() {
   return (
     <div className="App">
-    <Greet name="Jason" hero="Shahtam"/>
+    <FunctionClick/>
+    <ClassClick/>
     </div>
   );
 }
