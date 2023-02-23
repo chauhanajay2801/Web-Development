@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Greer from './components/Greer';
-import Greet from './components/Greet';
+import Heyjsx from './components/Heyjsx';
+import Nojsx from './components/Nojsx';
+
 
 function App() {
   return (
     <div className="App">
-      <Greer/>
-      <Greet/>
+     <Heyjsx/>
+     <Nojsx/>
     </div>
   );
 }
