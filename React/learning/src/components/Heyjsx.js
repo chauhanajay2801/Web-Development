@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Heyjsx = ()=>{
+const Heyjsx = (props)=>{
+    console.log(props)
     return (
         <div>
-            <h1>Hello this is using jsx</h1>
+            <h1>Hello {props.name} aka {props.heroname}</h1>
+            {props.children}
         </div>
     )
 }
