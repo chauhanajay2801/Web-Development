@@ -1,5 +1,6 @@
 import './App.css';
-import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
+
 
 
 
@@ -7,9 +8,9 @@ import ParentComponent from './components/ParentComponent';
 function App() {
   return (
     <div className="App">
-    <ParentComponent/>
+    <UserGreeting/>
     </div>
   );
-}
+  }
 
 export default App;
