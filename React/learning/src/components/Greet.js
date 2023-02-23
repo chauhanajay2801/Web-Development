@@ -1,8 +1,10 @@
 import React, {Component} from 'react'
 
 class Greet extends Component{
-    render(props){
-        return <h1>hey {this.props.name} and you plays {this.props.heroname} </h1>
+    render(){
+        const {name,hero} = this.props
+        //const {state1, state2} = this.state
+        return <h1>hey {name} and you plays {hero} </h1>
     }
 }
 

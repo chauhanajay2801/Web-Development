@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Counter from './components/Counter';
+import Greet from './components/Greer';
 
 
 
 function App() {
   return (
     <div className="App">
-    <Counter/>
+    <Greet name="Jason" hero="Shahtam"/>
     </div>
   );
 }
