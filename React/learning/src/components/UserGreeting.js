@@ -17,11 +17,11 @@ class UserGreeting extends Component {
     // else{message = <div>Hello Guest</div>}
     // return <div>{message}</div>
 
-//    return this.state.isLoggedIn ?       //3rd Approach Ternary operator approach
+//    return this.state.isLoggedIn ?       //3rd Approach Ternary operator approach (advised)
 //     <div>Hello Ajay</div>:
 //     <div>Hello Guest</div>
 
-return this.state.isLoggedIn && <div>Welcome Ajay</div>
+return this.state.isLoggedIn && <div>Welcome Ajay</div> //4th approach the shortcircuit operator (advised)
    }
 }
 
