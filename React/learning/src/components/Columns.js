@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Columns() {
-    const items = []
+    // const items = []
   return (
     <>
         {/* {
