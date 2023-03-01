@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
-import FocusInput from './components/FocusInput'
-// import RefsDemo from './components/RefsDemo'
+import FrParentInput from './components/FrParentInput'
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
-        <FocusInput/>
+        <FrParentInput/>
 
       </div>
     )
