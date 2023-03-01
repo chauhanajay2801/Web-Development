@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import FrParentInput from './components/FrParentInput'
+import PortalDemo from './components/PortalDemo'
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
-        <FrParentInput/>
+        <PortalDemo/>
 
       </div>
     )
