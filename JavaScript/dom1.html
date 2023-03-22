@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom | Javascript</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p class = "dom1" id = "dom2">Lorem ipsum <span>dolor sit</span>> amet consectetur adipisicing elit. Minima, sit.</p>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+    </ul>
+
+    <ul>
+        <li class = "tech">Javascript</li>
+        <li class = "tech">Node js</li>
+        <li class = "tech">Reactjs</li>
+    </ul>
+    <script>
+        // console.log(window.document)
+        // console.log(document.documentElement)
+        // console.log(document.head)
+        // console.log(document.firstElementChild)
+        // let val = document.getElementById("dom2")
+        // console.log(val.innerText)
+        // console.log(val.innerHTML)
+
+        let val = document.getElementsByClassName("tech")
+        console.log(val)
+        console.log(val[0].innerText)
+        console.log(val[1].innerText)
+        val[1].innerHTML = "Abu"
+        val[2].innerHTML = "<h1>Hey bro</h1>"
+        console.log(val[1].innerText)
+        // checlk target by tag and tagname
+
+        // Query selector
+       let h1 = document.querySelector(".dom1").innerText
+       console.log(h1)
+
+       let value = document.querySelector("p").style.backgroundColor = "red"
+    </script>
+</body>
+</html>

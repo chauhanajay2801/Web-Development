@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom2</title>
+</head>
+<body>
+    <h1>The second dom file for alert prompt and all</h1>
+    <p id="js"></p>
+    <script>
+        // alert
+        // alert("Hey there")
+        // setTimeout(() => {
+        //     alert("Hello Javascript")
+        // }, 5000)
+
+        // confirm box
+    // let vval  = confirm("Are u sure")
+    // if(vval){
+    //     document.getElementById("js").innerHTML = "She is ok"
+    // }
+    // else{
+    //     document.getElementById("js").innerHTML = "She is not ok"
+    // }
+    
+    // prompt
+    let value = prompt("solve this to continue 20-10")
+    if (value == 10){
+        document.getElementById("js").innerText = "Success"
+    }
+    else{
+        document.getElementById("js").innerText = "Fail"
+    }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello js bootcamp</h1>
+    <ul>
+
+    </ul>
+
+    <button onclick="maths()" id="but">Submit</button>
+    <p id = "pp"></p>
+
+    <script>
+        const list = `
+        <li>Rohit</li>
+        <li>Manas</li>
+        <li>Vinod</li>
+        `;
+
+        const ull = document.querySelector("ul")
+        ull.innerHTML = list;
+
+        // crete element on screen
+        let title = document.createElement("h1")
+        title.className = "title";
+        title.style.fontSize="25px";
+        title.style.color="red";
+        title.textContent = "Creating new element in Dom 3 file";
+        // console.log(title);
+        // It doesnt come after that because it doesnt target the body till this point
+        document.body.appendChild(title)
+
+        // for loop
+
+        for (let i=0; i<3; i++){
+           let pra = document.createElement("p")
+           pra.className = "FSJS";
+           pra.style.fontSize = "16px"
+           console.log(pra) 
+           pra.textContent = i
+           document.body.appendChild(pra);
+        }
+       
+
+        function maths(){
+           let val =  prompt("Solve this 30-15");
+           if(val==15){
+               document.getElementById("pp").innerText = "Success Redirect";
+               document.getElementById("but").style.backgroundColor = "Green" 
+           }
+           else{
+               document.getElementById("pp").innerText = "Failed please try again";
+               document.getElementById("but").style.backgroundColor = "Red" 
+           }
+        }
+        
+    </script>
+</body>
+</html>
