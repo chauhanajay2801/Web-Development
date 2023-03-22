@@ -13,17 +13,26 @@
 
     <script>
         // document.addEventListener("Event",whom should i call)
+        document.addEventListener("click",hello)
+
+        function hello(){
+            document.getElementById("js").innerText = "Mouse clicked one time"
+        }
+    
         document.addEventListener("dblclick",helloo)
 
         function helloo(){
-            document.getElementById("js").innerText = "Mouse"
+            document.getElementById("js").innerText = "Mouse clicked double time"
+        }
+     
+        document.addEventListener("mouseenter",hellloo)
+
+        function hellloo(){
+            document.getElementById("js").innerText = "Mouse enteref"
         }
 
-        document.addEventListener("mouseenter",hello)
+       
 
-        function hello(){
-            document.getElementById("js").innerText = "Hello mouse enetered"
-        }
 
     </script>
 
@@ -32,6 +41,13 @@
     click
     dbl click
     mouse enter
+    mouseleave
+    moveover
+    input
+    keydown
+    keyup
+    keypress
+    onload
   -->
 </body>
 </html>
