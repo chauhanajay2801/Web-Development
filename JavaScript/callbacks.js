@@ -51,20 +51,19 @@
   // console.log("Hello this is the default timeout")},3000);
 
 
-function ajay(){
-  console.log("new function")
-}
+// function ajay(){
+  // console.log("new function")
+// }
 
-setTimeout(ajay,4000);
+// setTimeout(ajay,4000);
 
 
 // setInterval
-
-setInterval(()=>{console.log("this is a set interval");},1000)
+// setInterval(()=>{console.log("this is a set interval");},1000)
 
 // how mamny callbacks do we have
 // foreach
-// mao
+// map
 // filer
 // reduce
 // find
@@ -72,5 +71,11 @@ setInterval(()=>{console.log("this is a set interval");},1000)
 // some
 // sort
 
+
+// map
+
+const numbers = [1,2,3,4,5,6];
+const plus = numbers.map((num)=> num+num) ;
+console.log(plus)
 
 
