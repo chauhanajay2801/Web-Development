@@ -74,8 +74,15 @@
 
 // map
 
-const numbers = [1,2,3,4,5,6];
-const plus = numbers.map((num)=> num+num) ;
-console.log(plus)
+// const numbers = [1,2,3,4,5,6];
+// const plus = numbers.map((num)=> num+num) ;
+// console.log(plus)
 
+
+// filter
+
+const count = ["India","Norway","Netherland","Japan","Germany"];
+
+const store = count.filter((val)=> val.includes("an"));
+console.log(store)
 
