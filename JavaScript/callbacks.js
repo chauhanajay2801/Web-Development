@@ -81,8 +81,26 @@
 
 // filter
 
-const count = ["India","Norway","Netherland","Japan","Germany"];
+// const count = ["India","Norway","Netherland","Japan","Germany"];
 
-const store = count.filter((val)=> val.includes("an"));
-console.log(store)
+// const store = count.filter((val)=> val.includes("an"));
+// console.log(store)
+
+
+// reduce means to reduce down the values
+
+// const num = [1,2,3,4,5,6,7]
+// const sum = num.reduce((acc,curr)=> acc+curr,0);
+// console.log(sum)
+
+
+// sort
+
+// const names = ["Ajay","Aman","Amit","Shyam","Harsha","Kapil","Harshad","Pritam"]
+// console.log(names.sort())
+// console.log(names.reverse())
+
+
+// Destructuring and spread and rest operator
+
 
