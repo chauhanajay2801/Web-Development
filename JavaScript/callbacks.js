@@ -103,4 +103,15 @@
 
 // Destructuring and spread and rest operator
 
+// const sci = [2.72,3.14,9.81,37]
+// let [e, pi, grav, bodytemp] = sci;
+// console.log(e, pi, grav, bodytemp)
 
+// const arr1 = [1,2,3];
+// let [var1, ,var2] = arr1
+// console.log(var1,var2)
+
+const arr1 = [1,2,3,4,5,6,7,8,9,11,12,13];
+let [var1,var2, ...res ] = arr1
+console.log(var1,var2)
+console.log(res)
