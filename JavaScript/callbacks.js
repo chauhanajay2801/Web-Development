@@ -60,3 +60,17 @@ setTimeout(ajay,4000);
 
 // setInterval
 
+setInterval(()=>{console.log("this is a set interval");},1000)
+
+// how mamny callbacks do we have
+// foreach
+// mao
+// filer
+// reduce
+// find
+// every
+// some
+// sort
+
+
+
