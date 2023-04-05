@@ -1,3 +1,5 @@
+/*******************CSS Reset**************************/
+
 * {
     margin: 0;
     padding: 0;
@@ -8,12 +10,15 @@
     width: 100vw;
     max-width: 1200px;
     margin: 0px auto;
+    /* border:2px solid red;
+      height:80vh; */
     display: flex;
     flex-direction: column;
     color: #ffffff;
     overflow-x: hidden;
   }
   
+  /****************************Utility Classes***************************/
   #hamburger-icon {
     display: none;
   }
@@ -30,6 +35,7 @@
   }
   
   .card {
+    /* border: 2px solid red; */
     height: 270px;
     width: 300px;
     display: flex;
@@ -49,7 +55,7 @@
     scale: 1.1;
   }
   
- 
+  /***********************Header and Navbar Section*********************/
   
   header {
     width: 100%;
@@ -63,6 +69,7 @@
   
   nav {
     width: 85%;
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -78,6 +85,7 @@
     color: #d1cfcf;
     display: flex;
     list-style-type: none;
+    /* border: 2px solid green; */
     align-items: center;
     justify-content: center;
     gap: 40px;
@@ -127,10 +135,11 @@
     opacity: 0.8;
   }
   
-
+  /****************************** Hero Section***************************/
   .hero {
     background-color: #151515;
     width: 100%;
+    /* border: 2px solid red; */
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -140,11 +149,12 @@
     overflow-x: hidden;
   }
   
-
+  /******************************Hero Left Section**************************/
   
   .hero-left-section {
     margin-left: 80px;
     margin-top: 60px;
+    /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -164,6 +174,7 @@
   }
   
   .hero-left-section > p {
+    /* border: 1px solid yellow; */
     color: #d1cfcf;
     font-size: 1.4rem;
     width: 60%;
@@ -178,6 +189,7 @@
     gap: 20px;
     position: relative;
     margin-left: 15px;
+    /* border: 2px solid red; */
     width: 40%;
   }
   
@@ -189,7 +201,7 @@
     z-index: 1;
     cursor: pointer;
   
-
+    /* border: 2px solid red; */
   }
   
   .get-started-btn > span::before {
@@ -212,6 +224,7 @@
   }
   
   .info-container {
+    /* border: 2px solid blue; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -257,8 +270,9 @@
     font-family: "Manrope", sans-serif;
   }
   
-
+  /******************************Hero Right Section**************************/
   .hero-right-section {
+    /* border: 2px solid white; */
     position: absolute;
     right: 0px;
     display: flex;
@@ -279,10 +293,12 @@
     top: 0px;
     left: 184px;
   }
-
+  
+  /*********************Section Logos************************/
   .logos {
     width: 100%;
     padding: 100px 20px;
+    /* border:2px solid red; */
     background-color: #292929;
     display: flex;
     justify-content: center;
@@ -291,20 +307,26 @@
     flex-wrap: wrap;
   }
   
-
+  /************************Section Services***************************/
   
   .services {
     width: 100%;
+    /* border:2px solid red; */
+    /* height: 1000px; */
     display: flex;
     flex-direction: column;
     gap: 30px;
     background-color: #151515;
     padding-bottom: 100px;
   }
-
+  
+  /***********************Services top side content*********************/
   .sevices-top-content {
     width: 100%;
+    /* border: 2px solid yellow; */
     margin-top: 100px;
+    /* height:50%; */
+    /* border: 2px solid green; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -313,10 +335,12 @@
   }
   
   .left-side-text {
+    /* border: 2px solid white; */
     padding: 20px 0px 20px 50px;
     font-family: "Manrope", sans-serif;
     font-size: 4rem;
     font-weight: 600;
+    /* border: 2px solid pink; */
     text-align: left;
     letter-spacing: 3px;
     width: 65%;
@@ -338,14 +362,16 @@
     font-size: 1.2rem;
     line-height: 30px;
     color: #d1cfcf;
+    /* border:1px solid white; */
     word-spacing: 4px;
- 
+    /* padding: 0px 5px; */
   }
   
   /***********************Services bottom side content******************/
   .sevices-bottom-content {
     width: 100%;
     height: 50%;
+    /* border: 2px solid rgb(236, 233, 5); */
     display: flex;
     flex-direction: row;
     gap: 40px;
@@ -378,6 +404,7 @@
     position: absolute;
     height: 271px;
     width: 301px;
+    /* background-color: #d1cfcf; */
     border-width: 1px;
     border-style: solid;
     border-image: linear-gradient(-230deg, white, #272727) 1;
@@ -391,6 +418,7 @@
     position: absolute;
     height: 271px;
     width: 301px;
+    /* background-color: #d1cfcf; */
     border-width: 3px;
     border-style: solid;
     border-image: linear-gradient(-230deg, white, #272727) 1;
@@ -404,6 +432,7 @@
     position: absolute;
     height: 271px;
     width: 301px;
+    /* background-color: #d1cfcf; */
     border-width: 1px;
     border-style: solid;
     border-image: linear-gradient(-230deg, white, #272727) 1;
@@ -421,7 +450,7 @@
     text-align: center;
   }
   
-
+  /*****************************Card Choices Section******************************/
   .card-choices {
     padding-top: 80px;
     width: 100%;
@@ -466,11 +495,12 @@
     top: -130px;
   }
   
-  
+  /************************************Customer Review Section**************************************/
   .customer-review {
     padding-top: 100px;
     padding-bottom: 140px;
     width: 100%;
+    /* border: 2px solid green; */
     background-color: #141212f5;
     display: flex;
     flex-direction: column;
@@ -533,6 +563,7 @@
     position: absolute;
     height: 242px;
     width: 452px;
+    /* background-color: #d1cfcf; */
     border-width: 1px;
     border-style: solid;
     border-image: linear-gradient(180deg, white, #272727) 1;
@@ -600,11 +631,12 @@
     cursor: pointer;
   }
   
-
+  /******************************* Banner Section ********************************/
   .banner {
     width: 100%;
     background-color: #141212f5;
     position: relative;
+    /* border:2px solid red; */
   }
   
   .banner-container {
@@ -674,10 +706,12 @@
     top: 0px;
   }
   
+  /*********************************Footer***********************************/
   .footer {
     padding-left: 120px;
     width: 100%;
    padding:100px 50px;
+    /* border:2px solid yellow; */
     background-color: #141212f5;
     display: flex;
     flex-direction: row;
@@ -695,6 +729,307 @@
     color: #d1cfcf;
   }
   
+  /********************************Responsiveness using Media Queries*****************************/
+  
+  @media only screen and (max-width: 980px) {
+    /***********************Header and Navbar Section*********************/
+    body{
+      
+    }
+    nav {
+      width: 100%;
+    }
+    nav > .logo {
+      width: 7rem;
+    }
+  
+    .hero {
+      flex-direction: column-reverse;
+      justify-content: flex-end;
+      align-items: center;
+      position: relative;
+      padding-bottom: 500px;
+    }
+    .hero-left-section {
+      position: static;
+      /* border: 2px solid red; */
+      width: 100%;
+      position: absolute;
+      padding: 5%;
+      margin: 0;
+    }
+  
+    .hero-left-section>h1{
+      font-size: 4rem;
+      width:100%;
+      /* border: 1px solid green; */
+    }
+    .hero-left-section>p{
+      width:80%;
+    }
+    .hero-right-section {
+      /* border: 2px solid white; */
+      position: static;
+      justify-content: center;
+      height: 40vh;
+      width: 100%;
+      position: relative;
+    }
+  
+    .hero-right-section > img {
+      position: absolute;
+      width: 60%;
+    }
+  
+    .back-cards {
+      top: -10%;
+      left: 49%;
+      z-index: -2;
+    }
+  
+    .front-cards {
+      top: 0%;
+      left: 55%;
+      z-index: -1;
+    }
+    .card2 {
+      top: 0px;
+    }
+    
+    .sevices-top-content {
+      flex-direction: column;
+    }
+    .left-side-text {
+      width:100%;
+      text-align: center;
+      /* border: 1px solid rgb(201, 184, 184); */
+    }
+    .right-side-text{
+      padding: 0;
+      margin: 0;
+      width:100%;
+      text-align: center;
+      /* border: 1px solid red; */
+      position: static;
+      padding: 20px;
+    }
+    .review-card {
+      display: grid;
+      grid-template-rows: repeat(4, 1fr);
+      grid-template-columns: repeat(1, 1fr);
+      gap: 100px;
+      
+    }
+    .banner > .get-started-btn{
+      /* border: 2px solid red; */
+    }
+    .banner > h1{
+      font-size: 3rem;
+     }
+  }
+  
+  @media only screen and (max-width: 675px) {
+    /***********************Header and Navbar Section*********************/
+    header {
+      justify-content: space-around;
+      /* border:1px solid red; */
+      padding: 30px 0px;
+    }
+    nav {
+      flex-direction: column;
+      gap: 50px;
+      align-items: center;
+      /* border:1px solid red; */
+      padding: 25px 0px;
+      display: none;
+    }
+    nav > ul {
+      flex-direction: column;
+      /* border:1px solid red; */
+      font-size: 1.4rem;
+    }
+    .right-side-item {
+      flex-direction: column;
+      justify-content: center;
+      gap: 15px;
+      font-size: 1.4rem;
+    }
+    #eng::after {
+      display: none;
+    }
+    #contact::before {
+      left: -22px;
+      top: 51px;
+      height: 25px;
+      width: 70px;
+      /* border: 2px solid red; */
+      background-size: cover;
+    }
+  
+    #hamburger-icon {
+      display: inline;
+      position: absolute;
+      left: 10px;
+      top: 5px;
+      font-size: 2rem;
+      cursor: pointer;
+      z-index: 3;
+    }
+    #cross-btn {
+      display: inline;
+      position: absolute;
+      right: 10px;
+      top: -30px;
+      font-size: 2rem;
+      cursor: pointer;
+      z-index: 3;
+    }
+  }
+  
+   @media only screen and (max-width: 770px){
+    
+    body{
+      overflow-x: hidden;
+    }
+    .footer{
+      flex-direction: column;
+    }
+    .footer >ul{
+  flex-direction: column;
+    }
+  }
+  
+  @media only screen and (max-width: 700px){
+    .hero-left-section>h1{
+      font-size: 2.5rem;
+    }
+    .hero-left-section>p{
+      font-size: 1.3rem;
+      width:100%;
+      padding-top:2%;
+    }
+    .get-started-btn {
+      margin-top: 25px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 20px;
+      position: relative;
+      margin-left: 15px;
+      /* border: 2px solid red; */
+      width: 100%;
+    }
+    
+    .get-started-btn > span {
+      font-size: 0.8rem;
+      /* border: 2px solid red; */
+    }
+    .arrow-btn{
+      width:10%;
+    }
+    
+    .get-started-btn > span::before {
+      width: 50px; 
+      left: -14px;
+      top:-7px
+    }
+    .info-container {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      /* border:1px solid red; */
+      gap:0px;
+    }
+    
+    .info {
+      gap: 20px;
+      flex-direction: column;
+    }
+    
+    .info > h2 {
+      font-size: 2rem;
+    }
+    
+    .info > h2 > i {
+      font-size: 1.5rem;
+      left:10px;
+      top:40px;
+    }
+    .info-text >span{
+      font-size: 1.2rem; 
+    }
+    .icon-vector-line{
+      rotate: 90deg;
+      margin-left: 25px;
+    }
+    .left-side-text{
+      font-size: 2rem;
+    }
+    .left-side-text>span{
+      font-size: 2rem;
+    }
+    .card-choices>h3{
+      font-size: 2rem;
+    }
+    .card-choices>h2{
+      font-size: 2rem;
+    }
+   .left-side-text{
+    width:100%;
+   
+    margin: 0;
+    padding: 0;
+   }
+   .customer-review>h2{
+    font-size: 2rem;
+   }
+   .banner > h1{
+    font-size: 2rem;
+   }
+   .banner > .get-started-btn{
+    /* border:2pxsolid rgb(55, 104, 9); */
+    width:40%;
+    left:20%;
+   }
+   
+  .banner > .get-started-btn > span::before {
+   display: none;
+  } 
+  
+  }
+  @media only screen and (max-width: 470px){
+    .review-card>.card{
+      width:200px;
+      height:400px;
+    }
+    .review-card>.card>img{
+      width:80%;
+    }
+    .review-card>.card::before{
+      width:202px;
+      height:402px;
+    }
+    .diamond-img > img{
+      width:100%;
+    }
+  }
   
   
-  
+  @media only screen and (max-width: 350px){
+  .card{
+  width:200px;
+  height:150px;
+  gap:5px;
+  }
+  .card::before {
+    width:202px;
+    height:152px;
+  }
+  .card > img{
+    width:30%;
+  }
+  .card >h2{
+    font-size: 1rem;
+  }
+  }
