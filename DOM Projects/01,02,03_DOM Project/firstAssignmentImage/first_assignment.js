@@ -15,3 +15,18 @@ sear.placeholder = "Search My Project";
 const span = Array.from(document.querySelectorAll(".hero-left-section > p > span"));
 span[1].innerText = "an Employee";
 span[2].innerText = "iNeuron Intelligence Pvt. Ltd."
+
+
+/**********************************TASK 4*******************************************/
+// changing the image to hitesh chaudhary image
+const pc = document.querySelector(".hero-right-section > img")
+pc.src = "https://hiteshchoudhary.com/static/a8d73d1aac4c79e9bb689640e6090367/2eaab/person-image.jpg"
+
+
+/**********************************TASK 5*******************************************/
+// adding a support me after chat with me
+
+const btnn = document.querySelector('.hero-right-section-btns');
+const Support = document.createElement("button");
+Support.innerText = "Support Me";
+btnn.appendChild(Support);
