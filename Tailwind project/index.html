@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vs code clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+   
+<div> 
+        <marquee className="text-2xl bg-green-200 font-medium h-8 sticky top-0">For Education Porpose(only desktop)</marquee>
+    
+   
+          <!-- 1st navbar -->
+        <nav class = "flex space-x-20 justify-center bg-[#2c2c32] text-[#a8a29e] sticky top-8">
+           <div class = "flex items-center">
+             <img className="h-8" src="./assets/vslogo.png"  alt=""> 
+             <span className="text-xl text-[#FEFDFC] ml-2 mr-6 font-normal">Visual Studio Code</span>
+           </div>
+        
+          <div className="flex items-center">
+             <ul className="flex item-center justify-center">
+                <li className="  mr-4 text-lg font-medium hover:text-[#FFFFFF]">Docs</li>
+                <li className="  mr-4 text-lg font-medium hover:text-[#FFFFFF] ">Updates</li>
+                <li className="  mr-4 text-lg font-medium hover:text-[#FFFFFF] ">Blog</li>
+                <li className="  mr-4 text-lg font-medium hover:text-[#FFFFFF] ">API</li>
+                <li className="  mr-4 text-lg font-medium hover:text-[#FFFFFF] ">Extensions</li>
+                <li className="  mr-4 text-lg font-medium hover:text-[#FFFFFF] ">FAQ</li>
+                <li className="  mr-4 text-lg font-medium hover:text-[#FFFFFF] ">Learn</li>
+              </ul>
+            </div>
+        
+          <div className="flex">
+             <div className="flex item-center">
+               <img className= "h-4 relative left-10 top-[18px]" src="https://code.visualstudio.com/assets/icons/search.svg"  alt="">
+                <input className=" h-12 text-center bg-neutral-700 placeholder:text-[#FFFFFF]  placeholder:text-sm  placeholder:text-thin hover:bg-[#25252B]" 
+                type="text" name="" placeholder="Search Docs" id="">
+              </div>
+
+          <div>
+             <button type="submit" 
+             className="  bg-[#005BA4] h-12 w-40 flex justify-center items-center space-x-4 hover:bg-sky-700" >
+                <img src= "https://code.visualstudio.com/assets/icons/download.svg" 
+                className=" h-4 font-semibold stroke-[10px] ">
+                <span className=" text-[#FFFFFF] weight:font-bold ">Download</span>
+                 </button>
+            </div>
+            </div>
+        </nav>
+
+     <div className="bg-[#25252B] text-slate-50 weight:font-medium h-10 flex justify-center items-center">
+        <p><span className=" text-sky-500 hover:underline"> Version 1.74 </span> is now available! Read about the new features and fixes from November</p>
+     </div>
+    
+     <!-- 2nd section the photo and the download button  -->
+     <div className="flex space-x-20 justify-center bg-[#2C2C32]">
+        <div className="mt-10 mr-25 ml-30 ">
+            <h1 className=" text-5xl font-thin text-[#FFFFFF] ">Code editing.</h1>
+            <h1 className=" text-5xl text-[#FFFFFF] pl-6">Redefined.</h1>
+            <p className=" mt-4 text-[#8697A0] font-medium ">Free. Built on open source. Runs everywhere. </p>
+            <p className="   flex justify-center ">
+                <button className=" h-14 bg-[#005BA4] w-60 text-[#FEFDFC] font-medium mt-4 hover:bg-sky-800  ">Download for Windows<p className=" font-light text-sm">Stable build</p></button>
+                <img src="./assets/expand-arrow.png" className="h-14 mt-4  border-l border-[#000000]" alt="">
+            </p>
+            <p className=" mt-4 text-sky-500 text-center bg-[#25252B]  p-2 rounded-md hover:underline text-[#005BA4]">Web, Insiders edition, or other platforms</p>
+            <div className=" mt-4 ">
+                <p className=" text-sm text-[#8697A0] text-center">By using VS Code, you agree to its </p>
+                <p className=" text-xs text-sky-500 text-center">license and privacy statement.</p>
+            </div>
+            
+        </div>
+
+        <div className=" mt-4 ">
+            <img src="./assets/codeimg.PNG" alt="">
+        </div>
+     
+        <!-- 3rd section-- 4 buttons  -->
+      </div>
+        
+           <main className=" grid grid-cols-4 bg-[#FFFFFF] mt-8 mb-8 justify-items-center  ">
+          <div className="  ">
+            <img src="./assets/IntelliSense.PNG"  className="h-14 ml-6 " alt="">
+            <span className="font-normal text-xl ">IntelliSense</span>
+          </div>
+          <div  className="    ">
+            <img src="./assets/run.PNG" className="h-14 ml-6 " alt="">
+            <span className="font-normal text-xl">Run and Debug</span>
+          </div>
+          <div  className="   ">
+               <img src="./assets/git.PNG" className=" h-14 ml-6 " alt="">
+               <span className="font-normal text-xl">Built-in Git</span>
+          </div>
+          <div  className="  ">
+            <img src="./assets/extension.PNG" className="  h-14 ml-6 " alt="">
+            <span className="font-normal text-xl">Extensions</span>
+          </div>
+        </main>
+         
+        <!-- 4th section-- 3 people profile -->
+
+        <main className=" flex bg-zinc-100  h-[300px] justify-center items-center pl-10 pr-10">
+           
+          <div className="flex gap-x-4 gap-y-10"><img src="./assets/less.png" className=" h-12 w-10 " alt=""></div>
+          
+          <div className="flex gap-x-4">
+            <div><img src="./assets/face1.jpg" className="  rounded-full" alt=""></div>
+            <div>
+              <p> <strong>Una Kravets @Una</strong> </p>
+              <p className=" text-[#a8a29e] ">VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️</p>
+            </div>
+            
+          </div>
+           
+          <div className="flex space-x-6">
+            <div><img src="./assets/face2.jpg" className="  rounded-full" alt=""></div>
+            <div>
+              <p> <strong>Pavithra Kodmad @PKodmad</strong> </p>
+              <p className=" text-[#a8a29e] ">VS Code will have deep remote development. You can connect to a container running a different OS and use any VS Code plugins, linting, debugging for that environment. 🔥🔥🔥</p>
+            </div>
+            
+          </div>
+           
+          <div className="flex space-x-4 ">
+            <div><img src="./assets/face3.jpg" className="  rounded-full" alt=""></div>
+            <div>
+              <p><strong>Jonathan Dunlap @jadbox</strong></p>
+              <p className=" text-[#a8a29e] ">VS Code is my most used and favorite editor. I love being able to customize the editor - changing the layout, the icons, fonts and color scheme is so easy!</p>
+            </div>
+            
+          </div>
+           
+          <div className="flex space-x-4">      
+                <img src="./assets/grt.png" className=" h-12 w-10 " alt="">
+          </div>
+          
+        </main>
+            
+        <!-- 5th section-- 5 photos with text -->
+
+        <main className=" grid grid-cols-3 h-[300px] ">
+          <div> <img  className=" p-20 object-fill " src="./assets/img1.PNG" alt="image1"> </div>
+
+          <div className=" col-span-2 p-20  "> <h2 className="text-3xl font-thin decoration-gray-100">Meet IntelliSense.</h2>
+            <p className=" text-lg pt-5 ">Go beyond syntax highlighting and autocomplete with IntelliSense, which</p>
+            <p className=" text-lg pt-2 "> provides smart completions based on variable types, function definitions, and </p>
+            <p className=" text-lg pt-2 ">  imported modules.</p>
+            </div>
+
+        </main>
+        <main className=" grid grid-cols-3 flex bg-zinc-100 h-[300px] ">
+          
+
+          <div className=" col-span-2 p-20  "> <h2 className="text-3xl font-thin decoration-gray-100">Print statement debugging is a thing of the past</h2>
+            <p className=" text-lg pt-5 ">Debug code right from the editor. Launch or attach to your running apps and</p>
+            <p className=" text-lg pt-2 ">debug with break points, call stacks, and an interactive console.</p>
+            </div>
+
+            <div> <img  className=" p-20 object-fill " src="./assets/img-2.PNG" alt="image1"> </div>
+
+        </main>
+        <main className=" grid grid-cols-3 h-[300px] ">
+          <div> <img  className=" p-20 object-fill " src="./assets/img-3.PNG" alt="image1"> </div>
+
+          <div className=" col-span-2 p-20  "> <h2 className="text-3xl font-thin decoration-gray-100">Git commands built-in.</h2>
+            <p className=" text-lg pt-5 ">Working with Git and other SCM providers has never been easier. Review diffs,</p>
+            <p className=" text-lg pt-2 "> stage files, and make commits right from the editor. Push and pull from any </p>
+            <p className=" text-lg pt-2 ">hosted SCM service.</p>
+            </div>
+
+        </main>
+        <main className=" grid grid-cols-3 flex bg-zinc-100 h-[300px] ">
+          
+
+          <div className=" col-span-2 p-20  "> <h2 className="text-3xl font-thin decoration-gray-100">Extensible and customizable.</h2>
+            <p className=" text-lg pt-5 ">Want even more features? Install extensions to add new languages, themes,</p>
+            <p className=" text-lg pt-2 ">debuggers, and to connect to additional services. Extensions run in separate</p>
+            <p className=" text-lg pt-2 ">processes, ensuring they won't slow down your editor. <span className= "text-sky-500 hover:underline " > Learn more about</span></p>
+            <p className=" text-lg pt-2 text-sky-500 hover:underline ">extensions.</p>
+            </div>
+
+            <div> <img  className=" p-20 object-fill " src="./assets/img-4.PNG" alt="image1"> </div>
+
+        </main>
+        <main className=" grid grid-cols-3 h-[300px] ">
+          <div> <img  className=" p-20 object-fill " src="./assets/img-5.PNG" alt="image1"> </div>
+
+          <div className=" col-span-2 p-20  "> <h2 className="text-3xl font-thin decoration-gray-100">Deploy with confidence and ease</h2>
+            <p className=" text-lg pt-5 ">With <span className= "text-sky-500 hover:underline " >Microsoft Azure</span>  you can deploy and host your React, Angular, Vue, Node,</p>
+            <p className=" text-lg pt-2 "> With Microsoft Azure you can deploy and host your React, Angular, Vue, Node,</p>
+            <p className=" text-lg pt-2 "> and scale with serverless computing, all with ease,<span className= "text-sky-500 hover:underline ">all from within VS Code.</span> </p>
+            </div>
+
+        </main>
+
+          <!-- 6th section-- vs code for to getting started now -->
+         <main className=" bg-zinc-100 h-[428px] ">
+          <div className="  text-3xl font-thin decoration-gray-100 pt-20 text-center ">VS Code for</div>
+          <div className="grid grid-cols-6 gap-y-6 place-content-center w-[800px] ml-80 mt-10">
+            
+            <div className=" flex  "><img src="https://code.visualstudio.com/assets/icons/file-icons/javascript.svg" alt="">
+            <span>JavaScript</span>
+             </div>
+            
+            <div className=" flex  "><img src="https://code.visualstudio.com/assets/icons/file-icons/python.svg" alt="">
+            <span>Python</span>
+            </div>
+
+            <div className=" flex  "><img src="https://code.visualstudio.com/assets/icons/file-icons/java.svg" alt="">
+            <span>Java</span>
+            </div>
+            
+            <div className=" flex "><img src="https://code.visualstudio.com/assets/icons/file-icons/markdown.svg" alt="">
+            <span>Markdown</span>
+            </div>
+
+            <div className=" flex "><img src="https://code.visualstudio.com/assets/icons/file-icons/typescript.svg" alt="">
+            <span>TypeScript</span>
+            </div>
+
+            <div className=" flex  "><img src="https://code.visualstudio.com/assets/icons/file-icons/cpp.svg" alt="">
+            <span>C++</span>
+            </div>
+          
+          </div>
+
+          <main className=" bg-zinc-100 h-[28px] ">
+          <div className="grid grid-cols-6 gap-y-6 place-content-center w-[800px] ml-80 mt-5">
+            
+            <div className=" flex  "><img src="https://code.visualstudio.com/assets/icons/file-icons/json.svg" alt="">
+            <span>JSON</span>
+             </div>
+            
+            <div className=" flex  "><img src="https://code.visualstudio.com/assets/icons/file-icons/powershell.svg" alt="">
+            <span>Powershell</span>
+            </div>
+
+            <div className=" flex  "><img src="https://code.visualstudio.com/assets/icons/file-icons/html.svg" alt="">
+            <span>HTML/CSS</span>
+            </div>
+            
+            <div className=" flex "><img src="https://code.visualstudio.com/assets/icons/file-icons/csharp.svg" alt="">
+            <span>C#</span>
+            </div>
+
+            <div className=" flex "><img src="https://code.visualstudio.com/assets/icons/file-icons/php.svg" alt="">
+            <span>PHP</span>
+            </div>
+
+            <div className=" flex  "><img src="https://code.visualstudio.com/assets/icons/file-icons/yaml.svg" alt="">
+            <span>YAML</span>
+            </div>
+          
+          </div>
+          <div className=" mt-10 text-sky-500 hover:underline  text-center ">and many more languages on the Marketplace...</div>
+          
+          <div className=" text-center mt-10 "  >
+            <button className=" bg-[#005BA4] h-12 w-40  text-[#FFFFFF] text-lg font-medium ">Get Started Now</button>
+          </div>
+
+         </main>
+         </div>
+
+            <!-- 7th section-- os images and doenload button  -->
+
+      <div className=" h-[450px] grid grid-cols-3 justify-center text-center gap-10 ">
+
+          <div className=" pl-48 pt-14 ">
+                
+                <div >
+                  <img className=" h-[100px] pl-10 "    src="	https://code.visualstudio.com/assets/images/windows-logo.png"  alt="">
+                  <button className="bg-[#005BA4] h-16 w-[220px]  mt-6 pl-8 pt-2"> 
+                    <span className="text-[#ffffff] flex text-lg font-bold"> <img className="h-6 pr-4 "  src="https://code.visualstudio.com/assets/icons/download.svg" alt=""> Windows</span>
+                    <small className="text-[#ffffff] pr-10 pt-[-1]">Windows 8, 10, 11</small>
+                  </button>
+                  <div className=" flex mt-4 ">
+                      <p className="  ">User Installer</p>
+                      <div className="flex ml-6 ">
+                      <small className=" text-white bg-[#005BA4] ml-2 ">x64</small>
+                      <small className=" text-white bg-[#005BA4]  ml-1">x86</small>
+                      <small className=" text-white bg-[#005BA4] ml-1">Arm 64</small>
+                    </div>
+                    </div>
+                  <div className=" flex mt-2">
+                      <p className="  ">System Installer</p>
+                      <div className="flex ml-1 ">
+                        <small className=" text-white bg-[#005BA4] ml-2 ">x64</small>
+                        <small className=" text-white bg-[#005BA4]  ml-1">x86</small>
+                        <small className=" text-white bg-[#005BA4] ml-1">Arm 64</small>
+                      </div>
+                  </div>
+                  <div className=" flex mt-2 ml-7">
+                      <p className="  ">.zip</p>
+                      <div className="flex ml-16 ">
+                        <small className=" text-white bg-[#005BA4] ml-2 ">x64</small>
+                        <small className=" text-white bg-[#005BA4]  ml-1">x86</small>
+                        <small className=" text-white bg-[#005BA4] ml-1">Arm 64</small>
+                      </div>
+                    </div>
+                    
+                    <div className=" flex mt-2 ml-7">
+                      <p className="  ">CLI</p>
+                      <div className="flex ml-16 ">
+                        <small className=" text-white bg-[#005BA4] ml-2 ">x64</small>
+                        <small className=" text-white bg-[#005BA4]  ml-1">x86</small>
+                        <small className=" text-white bg-[#005BA4] ml-1">Arm 64</small>
+                      </div>
+                    </div>
+                  
+
+                </div>
+          </div>
+               
+
+              
+              <div className=" pl-15 pt-14 ">
+                
+                <div className=" pl-12 "><img src="https://code.visualstudio.com/assets/images/linux-logo.png" className=" pl-14 h-[100px] " alt="">
+                
+                  <div className=" flex ">
+                  <button className="bg-[#005BA4] h-16 w-[140px]  mt-6 pl- pt-2"> 
+                    <span className="text-[#ffffff] flex text-lg font-bold"> <img className="h-5 pr-4 pt-1 pl-4 "  src="https://code.visualstudio.com/assets/icons/download.svg" alt=""> .deb</span>
+                    <small className="text-[#ffffff] pr-10 pt-[-1] pl-4">Debian,Ubuntu</small>
+                  </button>
+                  <button className="bg-[#005BA4] h-16 w-[140px] ml-2 mt-6 pl- pt-2"> 
+                    <span className="text-[#ffffff] flex text-lg font-bold"> <img className="h-5 pr-4 pl-4 pt-1"  src="https://code.visualstudio.com/assets/icons/download.svg" alt=""> .rpm </span>
+                    <small className="text-[#ffffff] text-center pl-4 pr-10 pt-[-1]">Redhat,Fedora,SUSE</small>
+                  </button>
+                </div>
+                  <div className=" flex mt-4 ml-10 ">
+                      <p className="  ">.deb</p>
+                      <div className="flex ml-10 ">
+                      <small className=" text-white bg-[#005BA4] ml-2 ">x64</small>
+                      <small className=" text-white bg-[#005BA4]  ml-1">Arm 32</small>
+                      <small className=" text-white bg-[#005BA4] ml-1">Arm 64</small>
+                    </div>
+                    </div>
+                  <div className=" flex  mt-2 ml-10" >
+                      <p className="  ">.rpm</p>
+                      <div className="flex ml-10 ">
+                        <small className=" text-white bg-[#005BA4] ml-2 ">x64</small>
+                        <small className=" text-white bg-[#005BA4]  ml-1">Arm 32</small>
+                        <small className=" text-white bg-[#005BA4] ml-1">Arm 64</small>
+                      </div>
+                  </div>
+                  <div className=" flex mt-2 ml-10">
+                      <p className="  ">.tar.gz</p>
+                      <div className="flex ml-7 ">
+                        <small className=" text-white bg-[#005BA4] ml-2 ">x64</small>
+                        <small className=" text-white bg-[#005BA4]  ml-1">Arm 32</small>
+                        <small className=" text-white bg-[#005BA4] ml-1">Arm 64</small>
+                      </div>
+                    </div>
+
+                    <div className=" flex mt-2 ml-11">
+                      <p className="  ">Snap</p>
+                      <div className="flex ml-8 ">
+                        <small className=" text-white bg-[#005BA4] ml-2 ">snapstore</small>
+                        
+                      </div>
+                    </div>
+                    
+                    <div className=" flex mt-2 ml-11">
+                      <p className="  ">CLI</p>
+                      <div className="flex ml-11 ">
+                        <small className=" text-white bg-[#005BA4] ml-2 ">x64</small>
+                        <small className=" text-white bg-[#005BA4]  ml-1">Arm 32</small>
+                        <small className=" text-white bg-[#005BA4] ml-1">Arm 64</small>
+                      </div>
+                    </div>
+
+              </div>
+              </div>
+         
+              
+              <div className="pt-14">
+                <div>
+                    <img className="h-[100px] pl-40 " src="https://code.visualstudio.com/assets/images/apple-logo.svg"
+                        alt="">
+                    <button className="bg-[#005BA4] h-16 w-[220px] mt-4"> <span
+                            className="text-[#ffffff] pl-4 text-lg  font-medium align-middle flex justify-center items-center"><img
+                                src="	https://code.visualstudio.com/assets/icons/download.svg" alt=""
+                                className="h-4 pr-4">Mac</span>
+                        <small className="text-[#ffffff]">macOS 10,11+</small>
+                    </button>
+                    <p className="pl-4 pt-4 decoration-gray-300 font-medium"> .zip <small
+                            className="bg-[#005BA4] mr-1 text-[#ffffff] font-light pl-1 pr-1 text-xs">Intel chip</small><small
+                            className="bg-[#005BA4] mr-1 text-[#ffffff] font-light pl-1 pr-1">Apple silicon</small><small
+                            className="bg-[#005BA4] mr-1 text-[#ffffff] font-light pl-1 pr-1">Universal</small></p>
+                    <p className=" pt-1 decoration-gray-300 font-medium mr-15">CLI <small
+                            className="bg-[#005BA4] mr-1 text-[#ffffff] font-light pl-1 pr-1">Intelchip</small><small
+                            className="bg-[#005BA4] mr-1 text-[#ffffff] font-light pl-1 pr-1">Apple silicon</small><small></small></p>
+
+                </div>
+            </div>
+
+          </div>
+            </body>
+            
+            <!-- 8th section-- new feature and privacy terms -->
+            <main className=" bg-zinc-100 h-[350px] text-[#444] ">
+               <div class = "grid grid-cols-2 h-[180px]">
+                  <div className=" mt-10 text-center ">
+                   <p className=" text-2xl font-semibold  ">Want new features sooner?</p>
+                   <p className=" text-lg mt-2   ">Get the <span className=" text-sky-500 hover:underline " >Insiders build</span> instead.</p>
+                  </div>
+                  <div className=" mt-10 text-center ">
+                  <p className=" text-2xl font-semibold  ">Use <span className=" text-sky-500 hover:underline "> vscode.dev</span> for quick edits </p>
+                  <p className=" text-2xl font-semibold  ">online!</p>
+                  <p className=" text-lg mt-2   "> GitHub, Azure Repos, and local files.</p>
+                  </div>
+                </div>
+              
+              <div className=" text-center text-[#444] text-sm ">
+                <p className=" mt-4 font-semibold ">LICENSE AND PRIVACY TERMS</p>
+                <p className=" mt-3 ">By downloading and using Visual Studio Code, you agree to the <span className=" text-sky-500 hover:underline ">license terms</span> and <span className=" text-sky-500 hover:underline ">privacy statement.</span> </p>
+                <p className=" mt-3 ">VS Code automatically sends telemetry data and crash dumps to help us improve the product.</p>
+                <p className=" mt-3 ">If you would prefer not to have this data sent please go see <span className=" text-sky-500 hover:underline ">How to Disable Crash Reporting </span>to learn how to disable it.</p>
+              </div>
+            </main>
+          
+            
+            <!-- 9th section-- last grey strip -->
+            <main className=" h-[80px] bg-[#333] grid grid-cols-2">
+              <div className=" flex space-x-4 mt-5 justify-center " >
+                <p class = "text-[#ffffff] text-xs">Hello from Seattle.</p>
+                <p class = "text-[#ffffff] text-xs"> Follow @code</p>
+                <p className="flex bg-[#F5F5F5] pl-1 pr-1 font-light rounded h-6 justify-center items-center space-x-1">
+                  <img src="./assets/github.png" className="h-4" alt="">
+                  <small className=""><span className="font-medium 
+                  text-center"> star</span> </small>
+                </p>
+                <small className="bg-[#F5F5F5] h-6 pl-1 pr-1"><span className="font-medium ">145,345</span> </small>
+              </div>
+
+              <div className=" flex  space-x-4 mt-5 justify-center">
+                <p class = "text-[#ffffff] text-xs">Support</p>
+                <p class = "text-[#ffffff] text-xs">Privacy</p>
+                <p class = "text-[#ffffff] text-xs">Term of use</p>
+                <p class = "text-[#ffffff] text-xs">License</p>
+                <p>
+                  <img src="https://code.visualstudio.com/assets/images/microsoft-logo.png" alt=""
+                      className="h-4"><span className="text-[#ffffff] text-xs"> © 2022 Microsoft</span>
+                </p>
+              </div>
+             </main>
+          
+</body>
+</html>
