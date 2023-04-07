@@ -22,30 +22,26 @@
 [Fashion Hub](https://style-trending.netlify.app/)
 
 **Project 4** <br/>
-[Check Here](./Projects/Project%202/readme.md)
+[Credit Card](https://card-page-01.netlify.app/)
 
 **Project 5** <br/>
-[Check Here](./Projects/Project%203/readme.md)
-**Project 2** <br/>
-[Check Here](./Projects/Project%202/readme.md)
+[Hosting Site](https://hosting-site-landing.netlify.app/)
 
-**Project 3** <br/>
-[Check Here](./Projects/Project%203/readme.md)
-**Project 2** <br/>
-[Check Here](./Projects/Project%202/readme.md)
+**Project 6** <br/>
+[Gaming Page](https://gaming-pagee.netlify.app/)
 
-**Project 3** <br/>
-[Check Here](./Projects/Project%203/readme.md)
-**Project 2** <br/>
-[Check Here](./Projects/Project%202/readme.md)
+**Project 7** <br/>
+[Real Estate](https://real-estate-page1.netlify.app/)
 
-**Project 3** <br/>
-[Check Here](./Projects/Project%203/readme.md)
+**Project 8** <br/>
+[Beats Music](https://beats-landing-page-01.netlify.app/)
+
+**Project 9** <br/>
+[Data Analytics](https://data-analytics-page.netlify.app/)
 
 ## Tailwind Project
 
-**Project 4**<br/>
-[Check Here](./Projects/Project%204%20%20vscode/README.md)
+[Vs Code Clone](./Projects/Project%204%20%20vscode/README.md)
 ## React Project
 
 **Project 5**<br/>
