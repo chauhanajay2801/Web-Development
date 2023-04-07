@@ -12,7 +12,7 @@
 
 
 ## Html and Css Project
-**Project 1** <br/>
+**Project 1** 
 [Seo Master](https://seo-masterr.netlify.app/)
 
 **Project 2** <br/>
