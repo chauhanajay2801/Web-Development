@@ -13,8 +13,29 @@
 
 ## Html and Css Project
 **Project 1** <br/>
-[Check Here](./Projects/Project%201/readme.md)
+[Seo Master](https://seo-masterr.netlify.app/)
 
+**Project 2** <br/>
+[Crypto Market](https://kryptomarkett.netlify.app/)
+
+**Project 3** <br/>
+[Fashion Hub](https://style-trending.netlify.app/)
+
+**Project 4** <br/>
+[Check Here](./Projects/Project%202/readme.md)
+
+**Project 5** <br/>
+[Check Here](./Projects/Project%203/readme.md)
+**Project 2** <br/>
+[Check Here](./Projects/Project%202/readme.md)
+
+**Project 3** <br/>
+[Check Here](./Projects/Project%203/readme.md)
+**Project 2** <br/>
+[Check Here](./Projects/Project%202/readme.md)
+
+**Project 3** <br/>
+[Check Here](./Projects/Project%203/readme.md)
 **Project 2** <br/>
 [Check Here](./Projects/Project%202/readme.md)
 
