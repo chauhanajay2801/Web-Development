@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(4, 5, 14);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    cursor: pointer;
+    overflow: hidden;
+    
+  }
+  .circle {
+    height: 10px;
+    width: 10px;
+    border: 1px solid rgb(182, 52, 128);
+    background-color: rgb(182, 52, 128);
+    border-radius: 50%;
+    position: absolute;
+
+  }
+  
+  .btn {
+    all: unset;
+    height: 20px;
+    width: 100px;
+    border: 1px solid rgb(240, 91, 91);
+    border-radius: 10px;
+    padding: 1em 2em;
+    color: rgb(233, 87, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
