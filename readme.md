@@ -42,6 +42,9 @@
 ## Tailwind Project
 
 [Vs Code Clone](https://vscodecloneforlearning.netlify.app/)
+## JavaScript Assignment Q/A
+
+[Question/Answers](https://github.com/chauhanajay2801/FSJS-2.0/tree/master/Js%20Assignment)
 ## JavaScript Projects
 
 [Circle Drawing](https://circleapp11.netlify.app/)
