@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Hello World</h1>
-    <p class = "dom1" id = "dom2">Lorem ipsum <span>dolor sit</span>> amet consectetur adipisicing elit. Minima, sit.</p>
+    <p class = "fsjs" id = "fsjs2">Lorem ipsum <span>dolor sit</span> amet consectetur adipisicing elit. Minima, sit.</p>
     <ul>
         <li>one</li>
         <li>two</li>
@@ -19,29 +19,35 @@
         <li class = "tech">Node js</li>
         <li class = "tech">Reactjs</li>
     </ul>
+    
     <script>
-        // console.log(window.document)
+        // console.log(document)
         // console.log(document.documentElement)
-        // console.log(document.head)
+        // console.log(document.head) // gives the head
         // console.log(document.firstElementChild)
-        // let val = document.getElementById("dom2")
+        // let val = document.getElementById("fsjs2")
+        // console.log(val)
         // console.log(val.innerText)
         // console.log(val.innerHTML)
 
-        let val = document.getElementsByClassName("tech")
-        console.log(val)
-        console.log(val[0].innerText)
-        console.log(val[1].innerText)
-        val[1].innerHTML = "Abu"
-        val[2].innerHTML = "<h1>Hey bro</h1>"
-        console.log(val[1].innerText)
-        // checlk target by tag and tagname
+        // let vv = document.getElementsByClassName("tech");
+        // console.log(vv[0].innerText)
+        // vv[1].innerHTML = "Ajay Chauhan"
+        // vv[2].innerHTML =  "<h1>Hey bro </h1>" // dont use this because anyone can pass scripts
 
-        // Query selector
-       let h1 = document.querySelector(".dom1").innerText
-       console.log(h1)
+    //     let tg = document.getElementsByTagName("ul")[0];
+    //    let ag =  tg.getElementsByTagName("li")[0].innerText;
+    //    console.log(ag)
+    //    let bg =  tg.getElementsByTagName("li")[0].innerText = "Ajay bro";
+    //    console.log(bg)
+       
+    // let h = document.querySelector("h1").innerHTML //by tagname
+    // console.log(h)
+    
+    // let i = document.querySelector("#fsjs2").innerText
+    // console.log(i) 
 
-       let value = document.querySelector("p").style.backgroundColor = "red"
+    
     </script>
 </body>
 </html>
