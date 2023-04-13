@@ -12,6 +12,9 @@
 
     </ul>
 
+    <button onclick="maths()" id = "button1">Submit</button>
+    <p id="para1"></p>
+
     <script>
     //insert inner html
     const list =`
@@ -34,8 +37,31 @@
     // <h1 class = "title" style = "font-size:25px; color:green">
    document.body.appendChild(el1)
 
-   //Remove child 
-  document.body.removeChild(el1)
+//    //Remove child 
+//   document.body.removeChild(el1)
+
+   //For loop use
+   for (let i=0; i<3; i++){
+    let a = document.createElement("p");
+    a.className = "para";
+    a.textContent = i
+    document.body.appendChild(a)
+    // console.log(a)
+   }
+
+   function maths(){
+    value = prompt("Solve this 50-20")
+    if(value==30){
+        document.getElementById("para1").innerText = "Success redirect"
+        document.getElementById("para1").style.backgroundColor="Green"
+    }
+    else{
+        document.getElementById("para1").innerText = "Fail"
+        document.getElementById("para1").style.backgroundColor="Red"
+
+    }
+
+   }
     </script>
 </body>
 </html>
