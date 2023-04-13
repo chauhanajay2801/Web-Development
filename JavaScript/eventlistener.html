@@ -10,44 +10,37 @@
 
     <h1>Learning the event listeners</h1>
     <p id="js">Event Listener</p>
+    <ul>
+        <li id ="name">Ajay chauhan</li>
+    </ul>
+
+    <input type="text" placeholder="Enter your name here">
+    <p id = "para2"></p>
 
     <script>
         // document.addEventListener("Event",whom should i call)
-        document.addEventListener("click",hello)
+        document.addEventListener("click",smc)
 
-        function hello(){
+        function smc(){
             document.getElementById("js").innerText = "Mouse clicked one time"
         }
     
-        document.addEventListener("dblclick",helloo)
+        document.addEventListener("dblclick",dbc)
 
-        function helloo(){
+        function dbc(){
             document.getElementById("js").innerText = "Mouse clicked double time"
         }
      
-        document.addEventListener("mouseenter",hellloo)
+        document.addEventListener("mouseenter",mse)
 
-        function hellloo(){
-            document.getElementById("js").innerText = "Mouse enteref"
+        function mse(){
+            document.getElementById("js").innerText = "Mouse entered inside page"
         }
-
-       
-
-
+     
+      
     </script>
 
 
- <!-- 
-    click
-    dbl click
-    mouse enter
-    mouseleave
-    moveover
-    input
-    keydown
-    keyup
-    keypress
-    onload
-  -->
+
 </body>
 </html>

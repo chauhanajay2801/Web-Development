@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+     <!-- 
+    click
+    dbl click
+    mouse enter
+    mouseleave
+    moveover
+    input
+    keydown
+    keyup
+    keypress
+    onload
+  -->
+
+    <p id = "js"></p>
+    <p id = "name"></p>
+    <input type="text" placeholder="Enter ur name here">
+    <p id = "para2"></p>
+
+
+    <script>
+    // Mouseleft
+    document.addEventListener("mouseleave",msl)
+
+    function msl(){
+        document.getElementById("js").innerText = "Mouse left the page"
+    }
+
+    //Mouseover
+    const test = document.getElementById("name");
+    test.addEventListener("mouseover",(event) => {
+    event.target.style.color = "orange";
+    // reset the color after a short delay
+    setTimeout(() => {
+    event.target.style.color = "";
+    }, 500); },false
+    );
+
+    //input
+    const input = document.querySelector("input");
+    const log = document.getElementById("para2");
+    input.addEventListener("input",updateValues);
+
+
+        function updateValues(e) {
+         log.textContent = e.target.value
+        }
+
+    </script>
+
+</body>
+</html>
