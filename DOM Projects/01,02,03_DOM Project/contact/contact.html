@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Website</title>
 
-    <script src="./contact.js"></script>
-
     <!-- font awesome kit link -->
     <script
       src="https://kit.fontawesome.com/6ebb309f55.js"
@@ -55,9 +53,9 @@
       <div class="mainLeft">
         <h2>User Output Board</h2>
         <form class="mainLeftDetails">
-          <input class="enterName" type="text"  placeholder="User Entered Name">
-          <input class="enterMail" type="email" placeholder="User Entered Email">
-          <textarea class="enterMessage" placeholder="User Entered Message"></textarea>
+          <input class="enterName" type="text" readonly placeholder="User Entered Name">
+          <input class="enterMail" type="email" readonly placeholder="User Entered Email">
+          <textarea class="enterMessage" readonly placeholder="User Entered Message"></textarea>
           <button type="reset">Reset</button>
         </form>
       </div>
@@ -66,7 +64,7 @@
       <div class="mainRight">
         <h2>User Input Board</h2>
         <form>
-          <input class="userName" id = "check" type="text" placeholder="Enter Your Name" required>
+          <input class="userName" type="text" placeholder="Enter Your Name" required>
           <input class="userEmail" type="email" placeholder="Enter Your Email" required>
           <textarea class="userMessage" placeholder="Message" required></textarea>
           <button type="submit">Submit</button>

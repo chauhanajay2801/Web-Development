@@ -6,8 +6,7 @@
 }
 
 body {
-  background: linear-gradient(to bottom, #8c7a7a 0%, #af877c 65%, #af877c 100%)
-    fixed;
+  background: linear-gradient(to bottom, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
   background: url("./assets/coc-background.jpg") no-repeat center center fixed;
   background-size: cover;
   font: 14px/20px "Lato", Arial, sans-serif;
@@ -147,17 +146,21 @@ body {
   margin-bottom: 10px;
 }
 
+
 .clash-card__unit-stats--barbarian .one-third {
   border-right: 1px solid #bd7c2f;
 }
+
 
 .clash-card__unit-stats--archer .one-third {
   border-right: 1px solid #d04976;
 }
 
+
 .clash-card__unit-stats--giant .one-third {
   border-right: 1px solid #de7b09;
 }
+
 
 .clash-card__unit-stats--goblin .one-third {
   border-right: 1px solid #71a32a;
@@ -168,6 +171,7 @@ body {
 }
 
 .clash-card__unit-stats {
+
   font-weight: 700;
   border-bottom-left-radius: 14px;
   border-bottom-right-radius: 14px;
@@ -204,7 +208,7 @@ body {
   content: " ";
   clear: both;
   height: 0;
-}
+} 
 
 .slick-prev {
   left: 100px;
