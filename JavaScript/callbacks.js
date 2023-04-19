@@ -117,28 +117,31 @@
 // some
 // sort
 
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
 // map
 
 // const numbers = [1,2,3,4,5,6];
 // const plus = numbers.map((num)=> num+num) ;
 // console.log(plus)
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // filter
 
 // const count = ["India","Norway","Netherland","Japan","Germany"];
-
 // const store = count.filter((val)=> val.includes("an"));
 // console.log(store)
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // reduce means to reduce down the values
 
-// const num = [1,2,3,4,5,6,7]
-// const sum = num.reduce((acc,curr)=> acc+curr,0);
-// console.log(sum)
+const num = [1,2,3,4,5,6,7]
+const sum = num.reduce((acc,curr)=> acc+curr,0); //accumulator will collect the value, 
+console.log(sum)//current will iterate through it , initial here is 0 means from this point start from 0
 
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // sort
 
@@ -146,7 +149,7 @@
 // console.log(names.sort())
 // console.log(names.reverse())
 
-
+///////////////////////////////////////////////////////////////////////////////////////////////////
 // Destructuring and spread and rest operator
 
 // const sci = [2.72,3.14,9.81,37]
