@@ -1,14 +1,15 @@
-let form= document.querySelectorAll('form') ;
-form[1].addEventListener('submit' , (x) => {x.preventDefault();
+let myForm= document.querySelectorAll('form') ;
+myForm[1].addEventListener('submit' , (event) => {
+  event.preventDefault();
   let name= document.querySelector('.userName');
   let email= document.querySelector('.userEmail');
-  let msg= document.querySelector('.userMessage');
+  let message= document.querySelector('.userMessage');
 
-  let on=document.querySelector('.enterName');
-  let oe=document.querySelector('.enterMail');                                                  
-  let om= document.querySelector('.enterMessage');
+  let setName=document.querySelector('.enterName');
+  let setEmail=document.querySelector('.enterMail');                                                  
+  let setMessage= document.querySelector('.enterMessage');
 
-   on.value= name.value;                                         
-   oe.value= email.value;
-   om.value= msg.value ;
-                        })
+   setName.value= name.value;                                         
+   setEmail.value= email.value;
+   setMessage.value= message.value;
+})
