@@ -13,6 +13,12 @@ console.log(someone(...vari)); //spread and the data is divided it is called as 
 
 // Rest
 
+const arr1 = [1,2,3,4,5,6,7,8,9,11,12,13];
+let [var1,var2, ...rs ] = arr1
+console.log(var1,var2)
+console.log(rs)
+
+
 function sum(...args){  //rest operator
     console.log(args); // it is making the array and the spread is breaking the array
     let sum =0;

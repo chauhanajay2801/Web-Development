@@ -112,10 +112,10 @@
 // map
 // filer
 // reduce
-// find
+// sort
 // every
 // some
-// sort
+// find
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 // map
@@ -136,9 +136,9 @@
 
 // reduce means to reduce down the values
 
-const num = [1,2,3,4,5,6,7]
-const sum = num.reduce((acc,curr)=> acc+curr,0); //accumulator will collect the value, 
-console.log(sum)//current will iterate through it , initial here is 0 means from this point start from 0
+// const num = [1,2,3,4,5,6,7]
+// const sum = num.reduce((acc,curr)=> acc+curr,0); //accumulator will collect the value, 
+// console.log(sum)//current will iterate through it , initial here is 0 means from this point start from 0
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -152,15 +152,11 @@ console.log(sum)//current will iterate through it , initial here is 0 means from
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // Destructuring and spread and rest operator
 
-// const sci = [2.72,3.14,9.81,37]
+// const sci = [2.72,3.14,9.81,37] //destructuring
 // let [e, pi, grav, bodytemp] = sci;
-// console.log(e, pi, grav, bodytemp)
+// console.log(e, pi, grav, bodytemp);
 
-// const arr1 = [1,2,3];
+// const arr1 = [1,2,3]; // destructuring
 // let [var1, ,var2] = arr1
 // console.log(var1,var2)
 
-// const arr1 = [1,2,3,4,5,6,7,8,9,11,12,13];
-// let [var1,var2, ...res ] = arr1
-// console.log(var1,var2)
-// console.log(res)
