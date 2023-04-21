@@ -31,34 +31,34 @@
 
 //////////////////////////////////////////////////////Promise////////////////////////////////////////////////////////////////////////
 
-const one = () => {
-    return "i am index page";
-};
+// const one = () => {
+//     return "i am index page";
+// };
 
-const two = () => {
-    return new Promise((resolve,reject)=>{
-        setTimeout(()=>{
-            resolve("Credential Correct");
-        },3000)
-    });
-};
+// const two = () => {
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//             resolve("Credential Correct");
+//         },3000)
+//     });
+// };
 
-const three = () => {
-    return "redirect to homepage";
-};
+// const three = () => {
+//     return "redirect to homepage";
+// };
 
-const callMe = async () => {
-    let Valone = one(); //going to one its returning val 1 and then the value is coming in Valone 
-    console.log(Valone)
+// const callMe = async () => {
+//     let Valone = one(); //going to one its returning val 1 and then the value is coming in Valone 
+//     console.log(Valone)
 
-    let Valtwo = await two();  
-    console.log(Valtwo)
+//     let Valtwo = await two();  
+//     console.log(Valtwo)
 
-    let Valthree = three();  
-    console.log(Valthree)
+//     let Valthree = three();  
+//     console.log(Valthree)
 
-}
+// }
 
-callMe();
+// callMe();
 
    
