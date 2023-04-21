@@ -89,6 +89,6 @@ let userDetails = {
 
 userDetails.buyCourse("FSJS");
 console.log(userDetails)
-console.log(userDetails.getCourseCount)
+console.log(userDetails.getCourseCount())
 
 
