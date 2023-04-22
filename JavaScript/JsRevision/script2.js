@@ -63,3 +63,30 @@
 //     console.log("Referesh")
 // },1000);
 
+//////////////////////////////////////////////////////for each//////////////////////////////////////////////////////////////
+
+// let names = ["Ajay","Bhushan","Chahat","Dipesh","Esha","Farukh"];
+
+// names.forEach((val)=>{ //for each is hof and arrow is callback
+    // console.log(val)
+// })
+
+//////////////////////////////////////////////////Map filter reduce////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////// Map --- to connect certain with all the operation
+
+// const number = [1,2,3,4,5];
+// const num = number.map((val)=> // because it is iteration over every element we need some thing to hold the value
+//   val+val);
+//   console.log(num);
+
+
+//////////////////////////////////////////////////////////// Filter --- to filter the data in the given data
+
+// const  country = ["India","china","Pakistan","Afghanistan","bangladesh","nepal"];
+
+// const count = country.filter((country) => country.includes("an"));
+// console.log(count)
+
+////////////////////////////////////////////////////////// Reduce --- 
+
