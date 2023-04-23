@@ -88,5 +88,29 @@
 // const count = country.filter((country) => country.includes("an"));
 // console.log(count)
 
-////////////////////////////////////////////////////////// Reduce --- 
+////////////////////////////////////////////////////////// Reduce --- bring single value
 
+// const number = [1,2,3,4,5];
+// const sum = number.reduce((acc,curr)=> acc+curr, 1);
+// console.log(sum);
+
+////////////////////////////////Promise///////////////////////////////////////
+
+const makePromise = new Promise((resolve, reject) => {
+      setTimeout(()=>{
+        const arrone = ["Html","Css","Js"];
+        if (arrone.length>0){
+            resolve("completed");
+        } else{
+            reject("incompleted");
+        }
+      },2000)
+});
+
+makePromise.then((result)=>{ //result is written to handle the value we got
+   console.log(result)  
+}).catch((result)=>{
+    console.log(result)
+})
+
+//the above approach had a few problems so we introduced async and await
