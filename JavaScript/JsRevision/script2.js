@@ -96,21 +96,34 @@
 
 ////////////////////////////////Promise///////////////////////////////////////
 
-const makePromise = new Promise((resolve, reject) => {
-      setTimeout(()=>{
-        const arrone = ["Html","Css","Js"];
-        if (arrone.length>0){
-            resolve("completed");
-        } else{
-            reject("incompleted");
-        }
-      },2000)
-});
+// const makePromise = new Promise((resolve, reject) => {
+//       setTimeout(()=>{
+//         const arrone = ["Html","Css","Js"];
+//         if (arrone.length>0){
+//             resolve("completed");
+//         } else{
+//             reject("incompleted");
+//         }
+//       },2000)
+// });
 
-makePromise.then((result)=>{ //result is written to handle the value we got
-   console.log(result)  
-}).catch((result)=>{
-    console.log(result)
-})
+// makePromise.then((result)=>{ //result is written to handle the value we got
+//    console.log(result)  
+// }).catch((result)=>{
+//     console.log(result)
+// })
 
 //the above approach had a few problems so we introduced async and await
+
+
+
+
+///////////////////////////////////////////////////////////////Fetch Api////////////////////////////////////////////////////////////////
+
+const url = "https://restcountries.com/v2/all"; //Countries
+
+fetch(url)
+.then((response) => response.json())
+.then((data)=>console.log(data))
+.catch((error)=>console.log(error))  
+//them is used for operation so there are two operations here and then catch will catch any error
