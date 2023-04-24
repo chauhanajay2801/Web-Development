@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>React</title>
 </head>
+<style>
+    .element{
+        background-color: aqua;
+        color: brown;
+    }
+</style>
 <body>
     <div class="root">Not Rendering</div>
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script> 
@@ -15,13 +21,13 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script type="text/babel">
         const rootElement = document.querySelector(".root");
-        const csss = {border:"2px solid pink",backgroundColor:"yellow"};
+        // const csss = {border:"2px solid pink",backgroundColor:"yellow"};
         const element = (<header>
-            <h1>Hello welcome back react</h1>
+            <h1 className = "element">Hello welcome back react</h1>
             <p>Welcome to react cdn</p>
             </header>);
 
-        const main = ( <main style = {csss}> 
+        const main = ( <main> 
             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis blanditiis labore animi, officiis illum optio molestias iure nihil. Sequi, consectetur?</p>
             <p>Lorem ipsum dolor sit amet.</p>
             </main>);
