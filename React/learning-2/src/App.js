@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Bard from "./Bard"
 import axios from 'axios'
 
@@ -15,6 +15,11 @@ function App() {
     }
 
     let list = ["Ajay","Bhoomika","Chauhan","Dheeraj"]
+
+    useEffect(() => {
+      fetchDetails()
+    }, [])
+    
 
     return (
         <>
