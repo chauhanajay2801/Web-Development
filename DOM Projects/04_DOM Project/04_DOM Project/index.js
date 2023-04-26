@@ -7,11 +7,11 @@ text.forEach(text => {
 })
 clashCards.forEach(card => {
     let cardClasses = Array.from(card.classList)
-    // if (cardClasses.includes("clash-card__unit-stats--barbarian")) {
-    //     card.style.backgroundColor = "#ec9b3b";
-    // } else if (cardClasses.includes("clash-card__unit-stats--archer")) {
-    //     card.style.backgroundColor = "#ee5487";
-    // } else if (cardClasses.includes("clash-card__unit-stats--giant")) {
+    if (cardClasses.includes("clash-card__unit-stats--barbarian")) {
+        card.style.backgroundColor = "#ec9b3b";
+    } else if (cardClasses.includes("clash-card__unit-stats--archer")) {
+        card.style.backgroundColor = "#ee5487";
+    } else if (cardClasses.includes("clash-card__unit-stats--giant")) {
         card.style.backgroundColor = "#f6901a";
     } else if (cardClasses.includes("clash-card__unit-stats--goblin")) {
         card.style.backgroundColor = "#82bb30";
