@@ -8,10 +8,11 @@
 
 
 const ab = document.querySelector(".nav-links")
+console.log(ab)
 let x = document.createElement("a")
 x.classList.add("btn")
 x.textContent="Recipes 2"
-ab.append(x)
+console.log(x)
  
 
 
