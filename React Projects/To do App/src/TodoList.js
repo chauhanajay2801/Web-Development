@@ -23,6 +23,10 @@ function TodoList() {
 
   }
 
+  function editActivity(){
+    
+  }
+
   function removeAll(){
     setlistData([])
   }
@@ -38,6 +42,7 @@ function TodoList() {
         <>
         <p key={i}></p>
         <div>{data}</div>
+        <div><button onClick={()=>editActivity(i)}>Edit Activity</button></div>
         <div><button onClick={()=>removeActivity(i)}>Remove(-)</button></div>
         
         </>
