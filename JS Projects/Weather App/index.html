@@ -12,9 +12,25 @@
         <h1>Weather Web App</h1>
 
         <form onsubmit="getData(event)" class="searchData">
-        <input type="inputBox" type="text" placeholder="Enter the city name you want to search">
+        <input id="inputBox" type="text" placeholder="Enter the city name you want to search">
         <button>Search</button>
         </form>
+
+        <section class="cityWeatherData">
+            <div class="countryDetails details">
+                <div class="card">
+                    <p>Country Name</p>
+                    <p id="countryName">__</p>
+                </div>
+
+            <div class="card">
+                <p>State Name</p>
+                <p id="stateName">__</p>
+            </div>
+
+            
+            </div>
+        </section>
     </div>
 </body>
 </html>
