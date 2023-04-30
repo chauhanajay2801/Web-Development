@@ -1,15 +1,14 @@
-import React from 'react'
-import Button from './Button'
-import UserDetails from './UserDetails'
+import React from 'react';
+import  Button  from './Button';
+import UserDetails from './UserDetails';
 
 
 const UserCard = () => {
   return (
-    <>
-    <UserCard/>
+    <div>
     <UserDetails/>
     <Button/>
-    </>
+    </div>
    
   )
 }

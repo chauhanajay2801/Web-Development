@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react';
+import { myContext } from "../App";
 
 const UserDetails = () => {
-  return (
-    <div>UserDetails</div>
+ const data = useContext(myContext);
+    return (
+    <div>
+    My name is {data.name} and my color is {data.color}
+    </div>
   )
 }
 
