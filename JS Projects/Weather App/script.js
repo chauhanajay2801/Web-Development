@@ -6,15 +6,24 @@
 let data;
 
 const inputBox = document.getElementById("inputBox");
-const countryName = document.getElementById("countryName");
-const stateName = document.getElementById("stateName");
 const cityName = document.getElementById("cityName");
 const humidity = document.getElementById("humidity");
+const stateName = document.getElementById("stateName");
 const windSpeed = document.getElementById("windSpeed");
-const temprature = document.getElementById("temprature");
 const logoImage = document.getElementById("logoImage");
+const temprature = document.getElementById("temprature");
+const countryName = document.getElementById("countryName");
 const weatherStatus = document.getElementById("weatherStatus");
 
 const getData = (event) => {
     event.preventDefault();
+    if(!inputBox.value){
+        alert("Please Enter the city name")
+    }
+
+    const city = inputBox.value;
+
+    //Fetch Details   --- fetch data  is a variable name
+
+    const fetchData = fetch(`https://api.weatherapi.com/v1/current.json?key=e4e45c8e00b349ef994103355232304&q=${city}`)
 }
