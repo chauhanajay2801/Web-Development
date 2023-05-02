@@ -16,6 +16,12 @@ const addContactHandler = (contact) =>{
   setContacts([...contacts, contact]) //array destructuring
 };
 
+useEffect(()=>{ // this one needed to add the data from the local storage 
+  const retrieveContacts = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY)); //adding key
+  // if (retrieveContacts) 
+  setContacts(retrieveContacts);
+},[]) 
+
 useEffect(()=>{
   localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(contacts)); //adding key
 },[contacts]) //adding contacts as dependency
