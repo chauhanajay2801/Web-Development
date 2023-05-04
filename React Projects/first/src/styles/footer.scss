@@ -1,0 +1,18 @@
+@import "colors";
+
+footer{
+    background-color: $first;
+    height: 200px;
+    width: 100%;
+    padding: 2rem;
+    color: $dark;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 2rem;
+
+    >div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
