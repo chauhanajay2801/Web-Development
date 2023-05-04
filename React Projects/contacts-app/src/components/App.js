@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import {uuid} from 'uuidv4';
 import './App.css';
 import Header from './Header';
 import AddContact from './AddContact';
@@ -13,7 +14,7 @@ const [contacts, setContacts] = useState([])
 
 const addContactHandler = (contact) =>{
   console.log(contact)
-  setContacts([...contacts, contact]) //array destructuring
+  setContacts([...contacts, {id: uuid(),...contacts}]) //array destructuring
 };
 
 useEffect(()=>{ // this one needed to add the data from the local storage 
