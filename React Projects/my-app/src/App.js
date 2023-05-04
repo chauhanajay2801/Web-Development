@@ -1,19 +1,25 @@
-import React from 'react'
-import MyHeadin, { MyHeadingList as MeraNaam, MyHeadingList2, MyHeadingList3 } from './components/MyHeading'
+import React from "react";
+import "./styles/App.css";
+import "./styles/Header.css";
+import Header from "./components/Header";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import About from "./components/About";
+import Contact from "./components/Contact";
 
 function App() {
   return (
-    <>
-    <div>App</div>
-    <MyHeadin/>
-    <MeraNaam/>
-    <MyHeadingList2/>
-    <MyHeadingList3/>
-    </>
-    
-  )
+    <Router>
+      <Header />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<div>Page not found 404</div>} />
+      </Routes>
+    </Router>
+  );
 }
 
-//export default can be imported with any name and the other one given will need to be "imported as ""
-
-export default App
+export default App;
