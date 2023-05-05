@@ -11,7 +11,7 @@ import "./styles/header.scss"
 import "./styles/home.scss"
 import "./styles/footer.scss"
 import "./styles/contact.scss"
-import "./styles/services.scss"
+
 
 const App = () => {
   return (
