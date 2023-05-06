@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <div className="home" id="home">
         <main>
-          <h1>Techstar</h1>
+          <h1>TechnoSoft</h1>
           <p>Solution to all your tech needs</p>
         </main>
       </div>

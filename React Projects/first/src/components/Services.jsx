@@ -21,11 +21,11 @@ const Services = () => {
         >
             <div>
                 <img src={img1} alt="item1" />
-                <p className='legend'>Full Stack</p>
+                <p className='legend'>Full Stack Development</p>
             </div>
             <div>
                 <img src={img2} alt="item2" />
-                <p className='legend'>Full Support</p>
+                <p className='legend'>Full Support to the end customer</p>
             </div>
         </Carousel>
 
