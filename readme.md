@@ -49,6 +49,3 @@
 
 [Circle Drawing](https://circleapp11.netlify.app/)
 
-## React Project
-
-[TextUtility App](https://textutilityapp1.netlify.app/)
