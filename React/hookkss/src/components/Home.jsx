@@ -1,5 +1,5 @@
 import React from 'react'
-import Product from './Product';
+import Coin from './Product';
 
 
 const Home = () => {
@@ -10,7 +10,7 @@ const arr = [1,2,3,4,5];
     <div>
         {
             arr.map(i => (
-                <Product value = {i} key={i}/>
+                <Coin name = {"Bitcoin"}  symbol={"Btc"} key={i}/>
             ))
         }
     </div>

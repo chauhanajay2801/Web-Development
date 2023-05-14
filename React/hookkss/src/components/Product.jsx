@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-const Product = ({value}) => {
+const Coin = ({ name, symbol }) => {
   return (
-    <div>{value}</div>
+    <>
+    <div>{symbol}</div>
+    <div>{name}</div>
+    </>
   )
 }
 
-export default Product
+export default Coin;
