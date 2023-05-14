@@ -3,3 +3,18 @@
     padding: 0%;
 }
 
+input{
+    padding: 0.5rem;
+    border: 1px solid red; 
+    outline: none;
+    border-radius: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 20px;
+}
