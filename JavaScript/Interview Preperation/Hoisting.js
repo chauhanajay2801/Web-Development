@@ -1,11 +1,15 @@
 
 
-var a = 8;
+// var a = 8;
 
-function getName(){
-    console.log("Hello it is the printline of js")
-}
+// function getName(){
+//     console.log("Hello it is the printline of js")
+// }
 
-getName();
+// getName();
+// console.log(a);
+// console.log(getName)
+
 console.log(a);
-console.log(getName)
+
+let a = 10;
