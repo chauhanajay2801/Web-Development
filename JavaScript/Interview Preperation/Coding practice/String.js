@@ -40,3 +40,12 @@ const str1 = "Hey there i am studying Strings for interview";
 // console.log(str1.substring(4,9))
 // console.log(str1.slice(4,-10))
 
+//Converting Case
+// const toBeConverted = 1
+// const converted = String(toBeConverted) // convert number in string
+const obj  = {name:"Ajay Chauhan"}
+const converted = JSON.stringify(obj)
+const repeat = JSON.parse(converted)
+console.log(typeof(converted))
+console.log(converted)
+console.log(typeof(repeat))
