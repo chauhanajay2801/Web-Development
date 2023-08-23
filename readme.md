@@ -9,6 +9,7 @@
 6. [Javascript variables and their scope](https://ajaychauhan.hashnode.dev/javascript-variable-and-their-scope)
 7. [Array and all its methods in Javascript](https://ajaychauhan.hashnode.dev/array-and-all-its-methods-in-javascript)
 8. [String and all its methods in Javascript](https://ajaychauhan.hashnode.dev/string-and-its-methods-in-javascript)
+9. [Interview Questions Js](https://ajaychauhan.hashnode.dev/javascript-interview-questions-part-1)
 
 
 ## Html and Css Project
@@ -48,4 +49,13 @@
 ## JavaScript Projects
 
 [Circle Drawing](https://circleapp11.netlify.app/)
+
+## React Projects
+
+[Technosoft Solutions](https://technosoft.netlify.app/)
+
+[Video App](https://video-starr.netlify.app/)
+
+[CryptoCurrency App](https://cryptoaapp.netlify.app/)
+
 

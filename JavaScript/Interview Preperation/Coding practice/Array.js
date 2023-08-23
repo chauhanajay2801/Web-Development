@@ -2,32 +2,36 @@
 // const data = ["Ajay","James"];
 // const [y,z] = data; // this type it takes the index values
 // const [a] = data;
-// console.log(y);
+// console.log(y);0
+// console.log(a);
 // console.log(z);
 
 //2 only take second index parameter
 // const data = ["Ajay","James","Akash"];
-// const[ ,y] = data
-// console.log(y)
+// const[ ,y,z] = data
+// console.log(y,z)
 
-//3 remove first element
+//3 remove first element -- change the main array
 // let data = [1,2,3,4,5,6];
-// console.log(data.shift()); //removes first element and returns it
+// console.log(data.pop())
+// console.log(data.shift()); 
+// removes first element and returns it
 // console.log(data);
 
-//4 last element =  data.pop
+//4 last element =  data.pop and return it --- change the main array
 
-//5 ---- check the data after deleting element from the array
-// let data = [1,2,3,6,7,8,8]
+//5 ---- delete array and index will delete the data from that index
+// let data = [1,2,3,6,7,8,9] 
 // delete data[1]; //length will be same
 // console.log(data); //data on the 1st index will be empty
 // console.log(data.length);
 
 //6 merge two array--- sill the data be changed like object
 // let data1 = [1,2,3,5,6]
-// let data2 = [1,2,3,5,7]
+// let data2 = [1,2,3,5,7,...data1]
 // let c = [...data1,...data2];
 // console.log(c); // repeated data wont be deleted
+
 
 //7
 // const numbers = [1,3,2];
@@ -158,7 +162,7 @@
 // console.log(nums)
 
 //sort 
-const unsorted = [5,8,1,8,2,5,9,11,56]
+// const unsorted = [5,8,1,8,2,5,9,11,56]
 
 
 
