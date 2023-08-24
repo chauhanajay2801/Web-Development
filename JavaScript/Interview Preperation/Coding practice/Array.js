@@ -14,14 +14,14 @@
 //3 remove first element -- change the main array
 // let data = [1,2,3,4,5,6];
 // console.log(data.pop())
-// console.log(data.shift()); 
+// console.log(data.shift());
 // removes first element and returns it
 // console.log(data);
 
 //4 last element =  data.pop and return it --- change the main array
 
 //5 ---- delete array and index will delete the data from that index
-// let data = [1,2,3,6,7,8,9] 
+// let data = [1,2,3,6,7,8,9]
 // delete data[1]; //length will be same
 // console.log(data); //data on the 1st index will be empty
 // console.log(data.length);
@@ -31,7 +31,6 @@
 // let data2 = [1,2,3,5,7,...data1]
 // let c = [...data1,...data2];
 // console.log(c); // repeated data wont be deleted
-
 
 //7
 // const numbers = [1,3,2];
@@ -61,7 +60,6 @@
 //every
 //some
 //find
-
 
 // for (let i=0; i<arr.length; i++){
 //     console.log(arr[i])
@@ -110,23 +108,20 @@
 // });
 // console.log(everye);
 
-
 //find -- returns the first variable which satisfies the condition
 // let numbersArr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // const everye = numbersArr.find((item) => {
-    //   return item > 5;
-    // });
-    // console.log(everye);
-
+//   return item > 5;
+// });
+// console.log(everye);
 
 //findindex -- gives the index of given value takes a callback
 // let arr = ["Apple", "banana","Cherry","Guava","Orange"]
 // let ar1 = arr.findIndex((item) => {
-    // return item === "banana"
+// return item === "banana"
 // })
 // console.log(ar1)
 
-    
 // Spread and rest operators
 // let numbersArr1 = [1, 2, 3, 4];
 // let numbersArr2 = [5, 6, 7, 8, 9];
@@ -149,7 +144,6 @@
 // arr.fill(0,2)
 // console.log(arr)
 
-
 //Flat -- it removes all the inner array and make a single array---not for 2 layer nesting
 // const numbers = [1,2,[3,4,[5,6]],7,[8]]
 // const flatened = numbers.flat(2);
@@ -161,11 +155,76 @@
 // console.log(nums2)
 // console.log(nums)
 
-//sort 
+//sort
 // const unsorted = [5,8,1,8,2,5,9,11,56]
 
+// let [a, ,c,...rest] = arr1
+// console.log(a,c,rest)
 
+// arr1.pop()
+// arr1.push("Jingur")
 
+// arr1.shift()
+// arr1.unshift("Jhingur","Lappu")
+
+// delete arr1[2]
+// let arr2 = []
+// let arr2 = arr1.reverse()
+
+// for (let i = arr1.length-1; i>=0; i--)
+// {arr2.push(arr1[i])}
+
+// let arr2 = arr1.flat()
+
+// arr1.fill("Zishan",2,4)
+
+// let arr2 = arr1.slice(1,3)
+
+// arr1.splice(1,2,"Golu")
+
+// let arr2 = ["Hari",...arr1]
+
+// const fiind = arr1.findLastIndex((a) => a > 5)
+
+// const fiilter = arr1.filter((a) => a > 5)
+
+// let evvery = (curr) => curr = 1;
+// console.log(arr1.some(evvery))
+// console.log(arr1.every(evvery))
+
+// let arr2 = arr1.map((m)=> m%2==0)
+// console.log(arr2)
+
+// let arr3 = arr1.filter((num)=>num>2).map((n)=>n*2)
+
+// console.log(arr3)
+
+// let arr4 = []
+// arr1.forEach((num)=>{
+//      if(num%2===0){
+//       arr4.push(num)
+//      }
+// })
+
+// console.log(arr4)
+
+// let arr2 = arr1.reduce((acc,curr)=>{
+//    return acc = acc+curr;
+// },0)
+
+// console.log(arr2)
+
+// console.log(arr1[arr1.length-2])
+
+// let arr3 = [...arr1,...arr2]
+
+// let arr3 = arr1.join(" and ")
+
+// console.log(arr1.includes(78))
+
+let arr1 = [1, 2, 3, 132, 18, 0];
+arr1.sort((a,b)=> b-a)
+console.log(arr1)
 
 
 
