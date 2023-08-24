@@ -55,6 +55,17 @@
 // const lowerer = str1.toLowerCase()
 // console.log(str1.charCodeAt(2)); // gives ascii value
 // console.log(String.fromCharCode(65));//gives the value for the ascii code
+// console.log(str1.localeCompare(str3)); // -1:false 0:true
+// console.log(str1.includes("Hey"))
 
-const str1 = "Hey there"
-const str2 = "Holla thaire"
+
+//Splitt and join strings
+// console.log(str1.split("e")) // split withwith provided value and make it an array
+
+
+
+
+
+
+
+
