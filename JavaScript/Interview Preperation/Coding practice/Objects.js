@@ -1,8 +1,11 @@
 //1
-// let person = {name:"Ajay Chauhan"};
-// Object.seal(person); //after seal can change the edisting value but not any new value
+// delete person["is a frontend Developer"]
+// console.log(person)
+// Object.seal(person); //after seal can change the ezisting value but not any new value
+// console.log(person.name);
 // person.age = 29;
 // person.name = "James";
+// delete person.name;
 // console.log(person);
 
 //2 -- Name property without . operator
