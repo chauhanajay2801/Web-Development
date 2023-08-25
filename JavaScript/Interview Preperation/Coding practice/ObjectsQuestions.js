@@ -156,3 +156,49 @@
 // console.log(members)
 
 //17 
+// const value = { number: 10 };
+
+// const multiply = (x= {...value}) => {
+//     console.log((x.number *= 2))
+// }
+
+// multiply()
+// multiply()
+// multiply(value) // when we directly passed this value the value is modified in the object
+// multiply(value)
+
+//18 
+// function changeAgeAndReference(person){
+//     person.age = 25; // it will change the given reference
+//     person = { // reassigning value ,no change on the eference object
+//         name:"John",
+//         age:50
+//     };
+//     return person;
+// }
+
+// const personObj1 = {
+//     name:"Alex",
+//     age:30
+// }
+
+// const personObj2 = changeAgeAndReference(personObj1)
+// console.log(personObj1) 
+// console.log(personObj2) 
+
+//19
+const personObj1 = {
+    name:"Alex",
+    age:30,
+    languages : {
+     first: "C"
+    }
+}
+
+const objClone = Object.assign({},personObj1) //wont clone nested objects
+
+personObj1.name = "Parikshit"
+console.log(personObj1)
+console.log(objClone)
+
+
