@@ -1,3 +1,5 @@
+import _ from 'lodash';
+
 //1 Output Based Question
 // const func = (function(a){
     // delete a; //dont delete the local variable only used on the objects
@@ -187,18 +189,38 @@
 // console.log(personObj2) 
 
 //19
+// shallow copy 
+// spread operator and the object.assign will make the copy but in nested they will point to the same
+
+// const obSpread = {...personObj1} // the nested object are pointing to each other
+// personObj1.languages.first = "Ruby on rails"
+// console.log(obSpread)
+// console.log(personObj1)
+// const objClone = Object.assign({},personObj1) // the nested object are pointing to each other
+// personObj1.name = "Parikshit"
+// objClone.languages.first = "Javascript"
+// console.log(personObj1)
+// console.log(objClone)
+
+
+//Deep copy
 const personObj1 = {
     name:"Alex",
     age:30,
     languages : {
-     first: "C"
-    }
+     first: "C",
+     second : "Java"
+    },
+    add: function(){}
 }
+//using stringify --Problem--functions wont be accepted-- pick hi nahi karega-- lot of time
+// const obj2 = JSON.parse(JSON.stringify(personObj1))
+// personObj1.languages.first = "Js"
+// personObj1.age = 88
+// console.log(personObj1)
+// console.log(obj2)
 
-const objClone = Object.assign({},personObj1) //wont clone nested objects
-
-personObj1.name = "Parikshit"
-console.log(personObj1)
-console.log(objClone)
-
+//using loadash
+// const obj2 = _.cloneDeep(personObj1)
+// console.log(obj2)
 
