@@ -1,3 +1,4 @@
+
 (function () {
     let hour = document.querySelector(".hours")
     let minute = document.querySelector(".minutes")
@@ -23,7 +24,13 @@
         startInterval()
     })
 
- 
+    function stopInterval(state) {
+       startBtn.innerHTML = state === "pause"?"continue":"start";
+       startBtn.style.display="initial";
+       stopBtn.style.display="none";
+       clearInterval(countDownTimer)
+    }
+
     
     function timer(){
         if(second.value > 60){
@@ -54,5 +61,15 @@
         return
     }
 
+    stopBtn.addEventListener("click",()=>{
+        stopInterval('pause');
+    })
 
+    resetBtn.addEventListener("click",()=>{
+        hour.value = "";
+        minute.value = "";
+        second.value = "";
+        startBtn.style.display = "initial";
+        stopBtn.style.display = "none";
+    })
 })();
