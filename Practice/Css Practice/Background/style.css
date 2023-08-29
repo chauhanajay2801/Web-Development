@@ -1,0 +1,13 @@
+body{
+    background-color: aqua;
+    background-image: url("https://images.pexels.com/photos/14198755/pexels-photo-14198755.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+p{
+    color:chartreuse;
+    font-size: large;
+}
