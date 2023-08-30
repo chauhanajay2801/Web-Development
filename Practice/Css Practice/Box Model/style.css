@@ -1,10 +1,10 @@
-body{
+/* body{
     font-size: 20px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-color: aquamarine;
-}
+} */
  
 /* ul{
     list-style-position: inside;
@@ -17,14 +17,86 @@ body{
     background-color: chartreuse;
 } */
 
-.small{
+/* .small{
     background-color: rgb(234, 255, 2);
   border: 2px solid black;
-  padding: 5px 0px 35px 50px;
+  padding: 5px 0px 35px 50px; */
   /* TOP RIGHT BOTTOM LEFT */
-  margin: 30px 50px; 
+  /* margin: 30px 50px;  */
   /* TOP AND SIDES */ 
-  width: 400px;
+  /* width: 400px;
   height: 400px;  
   overflow: auto;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
 }
+
+header{
+    /* border: 2px solid red; */
+    background-color: cadetblue;
+    padding: 50px 20px;
+    /* height: 100px; */
+    /* box-sizing: border-box; */
+    /* agar border box k saath heiht denge to total height tuni hi rahegi aage badhegi nahi */
+}
+
+header>a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+section{
+    border: 2px solid black;
+    height: 600px;
+    width: 1000px;
+    margin: auto;
+    /* auto karne s khud centre hoga kabhi kabh kaam nahi karta -- display block and width set */
+    /* background-image: linear-gradient(to bottom, crimson, green); */
+    background-color: cyan;
+    text-align: center;
+    padding: 20px;
+}
+
+section>h1{
+    font-size:50px;
+    border: 1px solid red;
+}
+
+section>img{
+    overflow: auto;
+    width: 800px;
+}
+
+footer{ 
+    /* border: 2px solid black; */
+    /* height: 100px; */
+    /* box-sizing: border-box; */
+    width: 1000px;
+    margin: auto;
+    padding: 50px 0px;
+    background-color: darkblue;
+}
+
+footer>p{
+    color: antiquewhite;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
