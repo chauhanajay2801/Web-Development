@@ -1,0 +1,23 @@
+body{
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: aquamarine;
+}
+ 
+/* ul{
+    list-style-position: inside;
+    list-style-type: circle; 
+    list-style: square inside; 
+    list-style-image: url(); 
+}  */
+
+.small{
+  border: 20px solid black;
+  padding: 5px 0px 35px 50px;
+  /* TOP RIGHT BOTTOM LEFT */
+  margin: 30px 50px; 
+  /* TOP AND SIDES */ 
+  width: 400px;  
+}
