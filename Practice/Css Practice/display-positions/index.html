@@ -7,7 +7,7 @@
     <!-- <link rel="stylesheet" href="./style.css"> -->
 
     <style>
-        body{
+        /* body{
             border: 3px solid rgb(138, 23, 23);
         }
         div{
@@ -27,14 +27,32 @@
             clear: right;
             background-color: rgb(193, 28, 132);
             float: right;
+        } */
+
+        .container{
+            border: 1px solid greenyellow;
+        }
+
+        .container>div{
+            border:  1px solid blue;
+            /* padding: 20px; */
+            display: inline;               ;
+        }
+
+        .container>span{
+            border: 1px solid violet;
+            display: block;
         }
 
     </style>
 </head>
 <body>
-    <div id="first">1</div>
-    <div id="second">2</div>
-    <div id="third">3</div>
+    <div class="container">
+        <div id="first">Lorem pellat rem</div>
+        <div id="second">Lorem ipsum dolor</div>
+        <div id="third">Lorem ipsum dolor </div>
+        <span>Lorem ipsum dolor sit amet.</span>
+    </div>
     
 </body>
 </html>
