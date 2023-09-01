@@ -1,0 +1,14 @@
+form {
+    max-width:800px ;
+    background-color: rgb(215, 214, 214);
+    margin: auto;
+    padding: 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+input[type="text"],textarea{
+    width: 300px;
+}
