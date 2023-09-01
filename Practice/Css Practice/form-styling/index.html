@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+  </head>
+  <body>
+    <form action="">
+      <h1>CONTACT US</h1>
+      <div>
+        Name:
+        <input
+          type="text"
+          placeholder="Enter your name"
+          required
+          type="text"
+          id="name"
+          name="name"
+        /><br />
+      </div>
+      <div>
+        Email:
+        <input
+          type="email"
+          required
+          type="email"
+          placeholder="Enter your email"
+          name="email"
+          id="email"
+        /><br />
+      </div>
+      <div>
+        Message:
+        <textarea
+          name="messsage"
+          id="message"
+          required
+          type="text"
+          placeholder="Enter your message"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <br />
+      </div>
+      <div>
+        Number:
+        <input
+          type="number"
+          required
+          type="number"
+          name="number"
+          id="number"
+        /><br />
+      </div>
+      <div>
+        Gender:
+        <select required name="usergender" id="gender">
+          <option value="">choose one</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="trans">Transgender</option>
+          <option value="nonbinary">Non-binary</option>
+        </select>
+      </div>
+      <div>
+        FrontEnd:
+        <input type="checkbox" name="FrontEnd:" id="frontend" />
+        Backend:
+        <input type="checkbox" name="BackEnd:" id="backend" />
+      </div>
+      <div>
+        <p>Mode of Payment</p>
+        <label for="cash">Cash:</label>
+        <input type="radio" name="mode" id="cash" />
+        <label for="bank">Bank:</label>
+        <input type="radio" name="mode" id="bank" /><br />
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" name="Password" id="password" /><br />
+      </div>
+      <div>
+        <input type="submit" value="submit" />
+      </div>
+    </form>
+  </body>
+</html>
