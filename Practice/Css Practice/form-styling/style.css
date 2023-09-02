@@ -1,14 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
 form {
     max-width:800px ;
     background-color: rgb(215, 214, 214);
     margin: auto;
     padding: 15px;
+    font: large;
+    font-family:fantasy
+}
+
+form > div{
+    margin: 10px;
+
 }
 
 h1{
     text-align: center;
+    margin: 20px;
 }
 
-input[type="text"],textarea{
-    width: 300px;
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+select,
+textarea{
+    padding: 5px;
+    width: 85%;
+    border-radius:5px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+
+input[type=submit]{
+    width: 200px;
+    padding: 10px;
+    font-size: large;
+    font-weight: 600;
+    display: block;
+    margin: 20px auto;
+    border: none;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+    
+input[type=submit]:hover{
+    background-color:aqua
 }
