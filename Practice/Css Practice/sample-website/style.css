@@ -1,0 +1,70 @@
+body{
+    background-image: url("./bgimg.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 110vh;
+}
+
+header{
+    background-color: rgb(154, 172, 179);
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.logo-box{
+    display: inline-block;
+    width: 120px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.logo-box:hover{
+    color: salmon;
+}
+
+.nav-box{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    width: 550px;
+}
+
+.nav-box>a{
+    color: antiquewhite;
+    padding: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#homo{
+    color: salmon;
+}
+
+.nav-box>a:hover{
+    color: salmon;
+}
+
+.headding{
+    color: rgb(254, 254, 254);
+    font-size:80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 700px;
+}
+
+.headding+h3{
+    color: rgb(18, 5, 76);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    position: relative;
+    left: 50px;
+
+}
