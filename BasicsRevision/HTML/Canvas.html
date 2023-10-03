@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas and Svg</title>
+</head>
+<body>
+    <canvas id="canvas" height="600" width="1300" style="border:1px solid #000000;"></canvas>
+</body>
+    <script>
+        var c = document.getElementById("canvas");
+        var ctx = c.getContext("2d");
+        ctx.moveTo(0, 0);
+        ctx.lineTo(1000, 100);
+        ctx.stroke();
+        </script>
+</html>

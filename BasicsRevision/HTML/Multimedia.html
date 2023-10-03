@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia demo</title>
+</head>
+<body>
+    <button onclick="playPause()">Play/Pause</button> 
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+    <video id="vidd1"  width="320" height="240" controls autoplay muted>
+        <source src="./Media/1.-Complete-Junior-to-Senior-Web-Developer-Roadmap-Introduction-Zero-To-1920x1080-1424K.mp4" type="video/mp4">
+    </video>
+
+    <script> 
+        var myVideo = document.getElementById("vidd1"); 
+        
+        function playPause() { 
+          if (myVideo.paused) 
+            myVideo.play(); 
+          else 
+            myVideo.pause(); 
+        } 
+        
+        function makeBig() { 
+            myVideo.width = 560; 
+        } 
+        
+        function makeSmall() { 
+            myVideo.width = 320; 
+        } 
+        
+        function makeNormal() { 
+            myVideo.width = 420; 
+        } 
+        </script> 
+        
+</body>
+</html>

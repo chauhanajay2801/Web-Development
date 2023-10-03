@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table1</title>
+    <style>
+       td, th,table {
+            border: 1px solid black;
+            /* border-collapse: collapse; */
+            border-radius: 10px;
+            
+        }
+        th,td{
+            border-color: blue;
+            border-style: dotted;
+        }
+        table{
+            width: 100%;
+            padding: 30px;
+            border-spacing: 20px;
+        }
+        th{
+            width: 70;
+        }
+        tr{
+            height: 100px;
+        }
+        tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Employee personal data</caption>
+        <tr>
+            <th colspan="2" rowspan="2">Name</th>
+            <th>Age</th>
+            <th>Married</th>
+        </tr>
+        <tr>
+            <th>company</th>
+            <td>29</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <th>vehicle</th>
+            <td>26</td>
+            <td>Married</td>
+        </tr>
+    </table>
+</body>
+</html>

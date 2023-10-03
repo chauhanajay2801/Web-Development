@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TableStyling</title>
+    <style>
+      table{
+        border: 1px solid black;
+        padding: 10px;
+      }
+      tr,
+      td {
+        border-bottom: 1px solid green;
+        padding: 1px;
+      }
+      tr:hover{
+        background-color: #D6EEEE;
+      }
+      /* tr:nth-child(even) {
+        background-color: rgba(150, 212, 212, 0.4);
+      }
+
+      th:nth-child(even),
+      td:nth-child(even) {
+        background-color: rgba(150, 212, 212, 0.4);
+      } */
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        The table made for styling
+      </caption>
+      <colgroup>
+        <col span="2" style="background-color: #D6EEEE">
+        <col span="3" style="background-color: pink">
+      </colgroup>
+      <tr>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+    </table>
+  </body>
+</html>

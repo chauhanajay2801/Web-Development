@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="" target="_parent" method="get" autocomplete="off" novalidate>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="FirstName">FirstName</label>
+        <input type="text" name="FirstName" id="" />
+        <label for="LastName">LastName</label>
+        <input type="text" name="LastName" id="" />
+        <br />
+        <input type="radio" name="gender" id="male" value="Male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="Female" />
+        <label for="female">Female</label>
+        <br />
+
+        <input type="checkbox" name="Bike" id="bike" value="Bike" />
+        <label for="bike">Bike</label>
+        <input type="checkbox" name="Car" id="car" value="Car" />
+        <label for="car">Car</label>
+        <br />
+
+        <label for="cars">Choose car brand you own:</label>
+        <select name="cars" id="cars" size="4" multiple>
+          <option value="honda">Honda</option>
+          <option value="maruti" selected>Maruti</option>
+          <option value="volsvagen">Volsvagen</option>
+          <option value="tata">Tata</option></select
+        ><br />
+
+        <textarea
+          name="message"
+          id=""
+          cols="30"
+          rows="10"
+          style="width: 200px; height: 100px"
+        >
+        </textarea
+        ><br />
+
+        <input list="cuisines">
+        <datalist id="cuisines">
+            <option value="lebanese">
+            <option value="chinese">
+            <option value="indian">
+            <option value="spanish">
+        </datalist>
+        <br>
+
+        <input type="button" value="submit" onclick="alert('Ho gaya')" />
+      </fieldset>
+    </form>
+  </body>
+</html>
