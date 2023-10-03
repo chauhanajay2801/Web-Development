@@ -1,0 +1,25 @@
+/* body{
+    background-image: url("https://images.pexels.com/photos/15896015/pexels-photo-15896015/free-photo-of-laxmanjhula-ramjhula-rishikesh-uttarakhand.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: repeat-y;
+    background-position:left; 
+    background-attachment: scroll;
+} */
+
+/* body{
+    #ffffff no-repeat right top;
+}
+
+p{
+    text-align: center;
+    background-color: aqua;
+    opacity: 1,0;
+} */
+
+div{
+    border: 1px solid black;
+    width: 70%;
+    background-color: aqua;
+    outline: solid greenyellow 10px;
+    outline-offset: 10px;
+    text-align: justify;
+}

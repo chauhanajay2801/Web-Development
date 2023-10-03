@@ -1,0 +1,30 @@
+a{
+    color: black;
+    text-decoration: none;
+    background-color: rgb(8, 96, 67);
+    padding: 10px;
+    border-radius: 2px;
+    color: aliceblue;
+}
+
+a:visited{
+    color: brown;
+}
+
+a:hover{
+    color: coral;
+}
+
+a:active{
+    color: aqua;
+}
+
+ul {
+    list-style-position: inside;
+    background: #ff9999;
+    padding: 20px;
+  }
+
+ul li{
+    background-color: aqua;
+}

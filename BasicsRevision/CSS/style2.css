@@ -1,0 +1,33 @@
+body {
+    font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Young Serif', serif;
+  }
+
+h1{
+    /* text-decoration-style: dotted;
+    text-decoration-line: overline underline;
+    text-decoration-color: chocolate;
+    text-decoration-thickness: 10px; */
+    text-decoration: dotted red 10px overline;
+    text-indent: 50px;
+    letter-spacing: 50px;
+    text-shadow: 2px 5px red;
+}
+
+p{
+    text-align: justify;
+    text-align-last: left;
+    direction: rtl;
+    vertical-align: bottom;
+    line-height: 20px;
+    word-spacing: 20px;
+}
+
+#p1{
+    font-size: 2rem;
+}
+
+#p2{
+    font-size: 2vw;
+}
